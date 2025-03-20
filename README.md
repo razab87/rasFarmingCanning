@@ -1,7 +1,7 @@
 # rasFarmingCanning
 All versions of the mod "ra's Farming & Canning" for the video game Project Zomboid. The mod's workshop page on steam contains info about the mod's content: https://steamcommunity.com/sharedfiles/filedetails/?id=2951489608.
 
-Release date: 24 Mar, 2023
+Release date: 24 Mar, 2023 <br>
 Last updated: 18 Mar, 2024
 
 The mod is currently only available for the stable build 41 version of the game. It is not available for the unstable build 42 and I probably don't update it since some of the mods features are now integrated in the main game. Bugfixes and other minor updates for the build 41 version are still possible ofc.

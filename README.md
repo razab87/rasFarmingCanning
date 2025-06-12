@@ -4,6 +4,8 @@ The mod "ra's Farming & Canning" for the video game Project Zomboid. Previous ve
 Release (steam): 24 Mar, 2023 <br>
 Last updated: 18 Mar, 2024
 
+Coding is in lua.
+
 The mod is only available for the stable build 41 version of the game. It is not available for the unstable build 42 and I probably won't update it since some of the mods features are now integrated in the main game. Bugfixes and other minor for the build 41 version are still possible ofc.
 
 When playing the game on steam, you can install the mod by simply subscribing to it in the workshop.

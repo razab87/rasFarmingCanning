@@ -13,7 +13,7 @@ Technical:
 - To make the new farming system work in multiplayer, the mod includes some code for proper server-client communication.
 - It implements various new UI elements which display new info about the crops and the growing season. There is also also some new functionality regarding the game's composting system which also required introduction of new UI elements.
 - The game's canning system is completely overhauled. This is partly done on the scripting level since the game's native recipe and crafting infrastructure does not allow realization of all new features introduced by the mod.
-- It adds some new textures and 3d models (created by me using the blender and gimp).
+- It adds some new textures and 3d models (created with blender and gimp).
 
 The mod is only available for the stable build 41 version of the game. It is not available for the unstable build 42 and I probably won't update it since some of the mods features are now integrated in the main game. Bugfixes and other minor for the build 41 version are still possible ofc.
 

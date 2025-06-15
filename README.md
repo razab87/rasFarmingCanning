@@ -4,7 +4,7 @@ The mod "ra's Farming & Canning" for the video game Project Zomboid (build 41 ve
 Release (steam): 24 Mar, 2023 <br>
 Last updated: 18 Mar, 2024
 
-Content: The mod's conetnt can be summarized under the following two bullt point:
+Content:
 - Changes to the farming system: The mod makes it so that farming is only possible during newly introduced growing seasons which last from April to Ocotber where the exact dates are randomized.
 - It makes some changes to the game's food preservation options (adding new canning options and increasing durability of the jars depending on the player's cooking skill).
 

@@ -10,6 +10,6 @@ The mod is only available for the stable build 41 version of the game. It is not
 When playing the game on steam, you can install the mod by simply subscribing to it in the workshop.
 
 Manual installation:
-1. Download the above .zip file (the most recent version of the mod).
-2. Extract the .zip.
-3. From the extracted file, copy the folder "rasFarmingCanning" from rasFarmingCanning_[version]/Contents/mods/ to your Zomboid/mods folder.
+- Download .zip file from the [release section](https://github.com/razab87/rasFarmingCanning/releases/tag/v1.1.1).
+- Extract the .zip.
+- From the extracted file, copy the folder "rasFarmingCanning" from rasFarmingCanning_[version]/Contents/mods/ to your Zomboid/mods folder.

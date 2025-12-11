@@ -1,0 +1,243 @@
+module Base 
+{
+
+
+/***************************************************************/       
+/*********************** JAMS **********************************/
+/***************************************************************/ 
+ 
+      item RasStrawberryJam
+      {
+          DisplayCategory = Food,
+          Type		      =	Food,
+          DisplayName	      =	Strawberry Jam,
+          Icon		      =	RasJarRed,
+          Weight	      =	0.5,
+          DaysFresh 	      = 60,
+          DaysTotallyRotten   =	90,
+          CantBeFrozen = TRUE,
+          OnCooked            = CannedFood_OnCooked,
+	      IsCookable	      =	TRUE,
+          MinutesToBurn	      =	1000000000,
+          MinutesToCook	      =	60,
+          StaticModel = CanClosed,
+		  UnhappyChange = -10,
+          Calories = 459,
+		  Carbohydrates = 109,
+		  Lipids = 0.1,
+		  Proteins = 0.9,
+          WorldStaticModel = RasJamRed_Ground,
+     }
+       
+    item RasStrawberryJamOpen
+	{
+		DisplayName = Opened Strawberry Jam,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.4,
+		Icon = RasJarRedOpen,
+		EvolvedRecipe = Sandwich:3;Sandwich Baguette:3;Pancakes:5;Waffles:5;ConeIcecream:5;Cake:15;Toast:3;Bread:15;Oatmeal:3,
+		FoodType = Fruits,
+		ReplaceOnUse = EmptyJar,
+        HungerChange = -30,
+		UnhappyChange = -10,
+		DaysFresh = 10,
+        DaysTotallyRotten = 14,
+		Calories = 459,
+		Carbohydrates = 109,
+		Lipids = 0.1,
+		Proteins = 0.9,
+		WorldStaticModel = RasJamRedOpen_Ground,
+        EvolvedRecipeName = Strawberry Jam,
+	}
+
+
+
+    item RasRedBerryJam
+    {
+          DisplayCategory = Food,
+          Type		      =	Food,
+          DisplayName	      =	Berry Jam,
+          Icon		      =	RasJarRed,
+          Weight	      =	0.5,
+          DaysFresh 	      = 60,
+          DaysTotallyRotten   =	90,
+          CantBeFrozen = TRUE,
+          OnCooked            = CannedFood_OnCooked,
+	      IsCookable	      =	TRUE,
+          MinutesToBurn	      =	1000000000,
+          MinutesToCook	      =	60,
+          StaticModel = CanClosed,
+		  UnhappyChange = -10,
+          Calories = 459,
+		  Carbohydrates = 109,
+		  Lipids = 0.1,
+		  Proteins = 0.9,          
+          WorldStaticModel = RasJamRed_Ground,
+    }
+       
+    item RasRedBerryJamOpen
+	{
+		DisplayName = Opened Berry Jam,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.4,
+		Icon = RasJarRedOpen,
+		EvolvedRecipe = Sandwich:3;Sandwich Baguette:3;Pancakes:5;Waffles:5;ConeIcecream:5;Cake:15;Toast:3;Bread:15;Oatmeal:5,
+		FoodType = Fruits,
+		ReplaceOnUse = EmptyJar,
+		HungerChange = -30,
+		UnhappyChange = -10,
+		DaysFresh = 10,
+        DaysTotallyRotten = 14,
+		Calories = 459,
+		Carbohydrates = 109,
+		Lipids = 0.1,
+		Proteins = 0.9,
+		WorldStaticModel = RasJamRedOpen_Ground,
+        EvolvedRecipeName = Berry Jam,
+	}
+
+
+    item RasBlueBerryJam
+    {
+          DisplayCategory = Food,
+          Type		      =	Food,
+          DisplayName	      =	Berry Jam,
+          Icon		      =	RasJarBlue,
+          Weight	      =	0.5,
+          DaysFresh 	      = 60,
+          DaysTotallyRotten   =	90,
+          CantBeFrozen = TRUE,
+          OnCooked            = CannedFood_OnCooked,
+	      IsCookable	      =	TRUE,
+          MinutesToBurn	      =	1000000000,
+          MinutesToCook	      =	60,
+          StaticModel = CanClosed,
+		  UnhappyChange = -10,
+          Calories = 459,
+		  Carbohydrates = 109,
+		  Lipids = 0.1,
+		  Proteins = 0.9,
+          WorldStaticModel = RasJamBlue_Ground,
+    }
+       
+    item RasBlueBerryJamOpen
+	{
+		DisplayName = Opened Berry Jam,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.4,
+		Icon = RasJarBlueOpen,
+		EvolvedRecipe = Sandwich:3;Sandwich Baguette:3;Pancakes:5;Waffles:5;ConeIcecream:5;Cake:15;Toast:3;Bread:15;Oatmeal:5,
+		FoodType = Fruits,
+		ReplaceOnUse = EmptyJar,
+		HungerChange = -30,
+		UnhappyChange = -10,
+		DaysFresh = 10,
+        DaysTotallyRotten = 14,
+		Calories = 459,
+		Carbohydrates = 109,
+		Lipids = 0.1,
+		Proteins = 0.9,
+		WorldStaticModel = RasJamBlueOpen_Ground,
+        EvolvedRecipeName = Berry Jam,
+	}
+
+    item RasOrangeBerryJam
+    {
+          DisplayCategory = Food,
+          Type		      =	Food,
+          DisplayName	      =	Berry Jam,
+          Icon		      =	RasJarOrange,
+          Weight	      =	0.5,
+          DaysFresh 	      = 60,
+          DaysTotallyRotten   =	90,
+          CantBeFrozen = TRUE,
+          OnCooked            = CannedFood_OnCooked,
+	      IsCookable	      =	TRUE,
+          MinutesToBurn	      =	1000000000,
+          MinutesToCook	      =	60,
+          StaticModel = CanClosed,
+		  UnhappyChange = -10,
+          Calories = 459,
+		  Carbohydrates = 109,
+		  Lipids = 0.1,
+		  Proteins = 0.9,
+          WorldStaticModel = RasJamOrange_Ground,
+    }
+       
+    item RasOrangeBerryJamOpen
+	{
+		DisplayName = Opened Berry Jam,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.4,
+		Icon = RasJarOrangeOpen,
+		EvolvedRecipe = Sandwich:3;Sandwich Baguette:3;Pancakes:5;Waffles:5;ConeIcecream:5;Cake:15;Toast:3;Bread:15;Oatmeal:5,
+		FoodType = Fruits,
+		ReplaceOnUse = EmptyJar,
+		HungerChange = -30,
+		UnhappyChange = -10,
+		DaysFresh = 10,
+        DaysTotallyRotten = 14,
+		Calories = 459,
+		Carbohydrates = 109,
+		Lipids = 0.1,
+		Proteins = 0.9,
+		WorldStaticModel = RasJamOrangeOpen_Ground,
+        EvolvedRecipeName = Berry Jam,
+	}
+
+    item RasDefaultBerryJam
+    {
+          DisplayCategory = Food,
+          Type		      =	Food,
+          DisplayName	      =	Berry Jam,
+          Icon		      =	RasJarRed,
+          Weight	      =	0.5,
+          DaysFresh 	      = 60,
+          DaysTotallyRotten   =	90,
+          OnCooked            = CannedFood_OnCooked,
+	      IsCookable	      =	TRUE,
+          MinutesToBurn	      =	1000000000,
+          MinutesToCook	      =	60,
+          StaticModel = CanClosed,
+		  UnhappyChange = -10,
+          Calories = 459,
+		  Carbohydrates = 109,
+		  Lipids = 0.1,
+		  Proteins = 0.9,
+          WorldStaticModel = RasJamRed_Ground,
+    }
+
+    item RasDefaultBerryJamOpen
+	{
+		DisplayName = Opened Berry Jam,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.4,
+		Icon = RasJarRedOpen,
+		EvolvedRecipe = Sandwich:3;Sandwich Baguette:3;Pancakes:5;Waffles:5;ConeIcecream:5;Cake:15;Toast:3;Bread:15;Oatmeal:3,
+		FoodType = NoExplicit,
+		ReplaceOnUse = EmptyJar,
+		HungerChange = -30,
+		UnhappyChange = -10,
+		DaysFresh = 10,
+        DaysTotallyRotten = 14,
+		Calories = 459,
+		Carbohydrates = 109,
+		Lipids = 0.1,
+		Proteins = 0.9,
+		WorldStaticModel = RasJamRedOpen_Ground,
+	}
+
+
+
+
+
+}
+
+
+
+

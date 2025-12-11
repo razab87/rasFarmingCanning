@@ -1,0 +1,41 @@
+
+
+UI_RU = {
+
+UI_rasFarming_InSeason = "Сезон выращивания"
+UI_rasFarming_NotInSeasonWarn = "Вегетационный период закончился. Урожай не вырастет"
+UI_rasFarming_NotInSeason = "Вне сельскохозяйственного сезона"
+UI_rasFarming_CanBeHarvested = "Вероятно, готовы к сбору урожая до окончания вегетационного периода"
+UI_rasFarming_CanNotBeHarvested = "Больше нельзя собирать урожай во время сельскохозяйственного сезона"
+UI_rasFarming_SeasonOverSoon = "Сезон выращивания заканчивается через несколько дней"
+UI_rasFarming_ShouldHarvest = "Я скоро буду собирать урожай"
+UI_rasFarming_SeasonOverSoonA = "Сезон выращивания заканчивается"
+UI_rasFarming_SeasonOverSoonB = "Через несколько дней"
+UI_rasFarming_Jan = "Январь"
+UI_rasFarming_Feb = "Февраль"
+UI_rasFarming_March = "Март"
+UI_rasFarming_April = "Апрель"
+UI_rasFarming_May = "Май"
+UI_rasFarming_June = "Июнь"
+UI_rasFarming_July = "Июль"
+UI_rasFarming_Aug = "Август"
+UI_rasFarming_Sep = "Сентябрь"
+UI_rasFarming_Oct = "Октябрь"
+UI_rasFarming_Nov = "Ноябрь"
+UI_rasFarming_Dec = "Декабрь"
+UI_rasFarming_Until = "Годен до"
+UI_rasFarming_AddRottenFood = "Добавить испорченные продукты из банок"
+UI_rasFarming_OpenJar = "Открыть банку",
+UI_rasFarming_Berry_Ingredient = "Ягода х 5"
+UI_rasFarming_Broccoli_Ingredient = "Брокколи х 5"
+UI_rasFarming_Tomato_Ingredient = "Помидор х 3"
+UI_rasFarming_Carrots_Ingredient = "Морковь х 5"
+UI_rasFarming_Potato_Ingredient = "Картофель х 3"
+UI_rasFarming_Eggplant_Ingredient = "Баклажаны х 3"
+UI_rasFarming_Leek_Ingredient = "Лук-порей х 3"
+UI_rasFarming_RedRaddish_Ingredient = "Редис х 10"
+UI_rasFarming_BellPepper_Ingredient = "Перец х 5"
+UI_rasFarming_Cabbage_Ingredient = "Капуста х 2"
+UI_rasFarming_Strewberry_Ingredient = "Клубника х 5"
+
+}

@@ -1,0 +1,28 @@
+
+
+Recipes_PTBR = {
+
+    Recipe_Make_Jar_of_Bell_Peppers = "Fazer Pote de Pimentão",
+    Recipe_Make_Jar_of_Broccoli = "Fazer Pote de Brócolis",
+    Recipe_Make_Jar_of_Cabbage = "Fazer Pote de Repolho",
+    Recipe_Make_Jar_of_Carrots = "Fazer Pote de Cenoura",
+    Recipe_Make_Jar_of_Eggplants = "Fazer Pote de Beringela",
+    Recipe_Make_Jar_of_Leeks = "Fazer Pote de Alho-Poró",
+    Recipe_Make_Jar_of_Potatoes = "Fazer Pote de Batata",
+    Recipe_Make_Jar_of_Red_Radishes = "Fazer Pote de Rabanete",
+    Recipe_Make_Jar_of_Tomatoes = "Fazer Pote de Tomate",
+
+    Recipe_Make_Jar_of_Pickled_Bell_Peppers = "Fazer Pote de Conserva de Pimentão",
+    Recipe_Make_Jar_of_Pickled_Broccoli = "Fazer Pote de Conserva de Brócolis",
+    Recipe_Make_Jar_of_Pickled_Cabbage = "Fazer Pote de Conserva de Repolho",
+    Recipe_Make_Jar_of_Pickled_Carrots = "Fazer Pote de Conserva de Cenoura",
+    Recipe_Make_Jar_of_Pickled_Eggplants = "Fazer Pote de Conserva de Beringela",
+    Recipe_Make_Jar_of_Pickled_Leeks = "Fazer Pote de Conserva de Alho-Poró",
+    Recipe_Make_Jar_of_Pickled_Potatoes = "Fazer Pote de Conserva de Batata",
+    Recipe_Make_Jar_of_Pickled_Radishes = "Fazer Pote de Conserva de Rabanete",
+    Recipe_Make_Jar_of_Pickled_Tomatoes = "Fazer Pote de Conserva de Tomate",
+
+    Recipe_Make_Strawberry_Jam = "Fazer Geleia de Morango",
+    Recipe_Make_Berry_Jam = "Fazer Geleia de Baga",
+
+}

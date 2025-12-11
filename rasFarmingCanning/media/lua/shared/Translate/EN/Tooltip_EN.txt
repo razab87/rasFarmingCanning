@@ -1,0 +1,5 @@
+Tooltip_EN = {
+
+    Tooltip_Jar = "Can be used to preserve food. Requires jar lid.",
+
+}

@@ -1,0 +1,983 @@
+module Base 
+{
+
+
+/*******************************************************************************/
+/************************ BAITS COMING FROM BASIC JARS *************************/
+/*******************************************************************************/
+
+    	
+    item RasBellPepperBait
+	{
+		DisplayName = Piece of Bell Pepper,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.1,
+		Icon = BellPepper,
+		EvolvedRecipe = Sandwich:2;Sandwich Baguette:3;Burger:3;Salad:5;Taco:2;Burrito:5,
+		FoodType = Vegetables,
+		DaysFresh = 5,
+		DaysTotallyRotten = 8,
+		HungerChange = -5,
+		Calories = 25.25,
+		Carbohydrates = 6.3,
+		Lipids = 0,
+		Proteins = 0.84,
+		StaticModel = RoundFood_Red,
+        WorldStaticModel = BellPepper_Ground,
+		EvolvedRecipeName = Pepper,
+	}
+
+    item RasBellPepperBaitRotten
+	{
+		DisplayName = Piece of Bell Pepper,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.1,
+		Icon = RasBellPepperRotten,
+		EvolvedRecipe = Sandwich:2;Sandwich Baguette:3;Burger:3;Salad:5;Taco:2;Burrito:5,
+		FoodType = Vegetables,
+		DaysFresh = 5,
+		DaysTotallyRotten = 8,
+		HungerChange = -5,
+		Calories = 25.25,
+		Carbohydrates = 6.3,
+		Lipids = 0,
+		Proteins = 0.84,
+		StaticModel = RoundFood_Red,
+        WorldStaticModel = BellPepper_Ground,
+		EvolvedRecipeName = Pepper,
+	}
+
+    item RasBroccoliBait
+	{
+		DisplayName = Piece of Broccoli,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.1,
+		Icon = Broccoli,
+		EvolvedRecipe = Pizza:5;Omelette:5;Soup:5;Stew:5;Pie:5;Stir fry Griddle Pan:5;Stir fry:5;Salad:5;Roasted Vegetables:5;RicePot:5;RicePan:5;PastaPot:5;PastaPan:5,
+		FoodType = Vegetables,
+		DaysFresh = 4,
+		DaysTotallyRotten = 6,
+		HungerChange = -5,
+		Calories = 10.18,
+		Carbohydrates = 1.9,
+		Lipids = 1.01,
+		Proteins = 0.81,
+        StaticModel = CylinderFood_Green,
+		WorldStaticModel = Broccoli_Ground,
+		
+	}
+
+    item RasBroccoliBaitRotten
+	{
+		DisplayName = Piece of Broccoli,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.1,
+		Icon = RasBroccoliRotten,
+		EvolvedRecipe = Pizza:5;Omelette:5;Soup:5;Stew:5;Pie:5;Stir fry Griddle Pan:5;Stir fry:5;Salad:5;Roasted Vegetables:5;RicePot:5;RicePan:5;PastaPot:5;PastaPan:5,
+		FoodType = Vegetables,
+		DaysFresh = 4,
+		DaysTotallyRotten = 6,
+		HungerChange = -5,
+		Calories = 10.18,
+		Carbohydrates = 1.9,
+		Lipids = 1.01,
+		Proteins = 0.81,
+        StaticModel = CylinderFood_Green,
+		WorldStaticModel = Broccoli_Ground,
+		
+	}
+
+
+    item RasCabbageBait
+	{
+	    DisplayCategory = Food,
+	    Type = Food,
+	    DisplayName	= Piece of Cabbage,
+	    Icon = Cabbage,
+	    Weight = 0.1,
+	    HungerChange = -5,
+	    DaysFresh =	2,
+	    DaysTotallyRotten =	 4,
+	    EvolvedRecipe = Sandwich:5;Sandwich Baguette:5;Burger:5;Taco:5;Burrito:5,
+	    FoodType = Vegetables,
+        Carbohydrates = 11.5,
+        Proteins = 2.54,
+        Lipids = 0.2,
+        Calories = 49.44,
+        StaticModel = RoundFood_Green,
+        WorldStaticModel = Cabbage_Ground,
+	}
+
+    item RasCabbageBaitRotten
+	{
+	    DisplayCategory = Food,
+	    Type = Food,
+	    DisplayName	= Piece of Cabbage,
+	    Icon = RasCabbageRotten,
+	    Weight = 0.1,
+	    HungerChange = -5,
+	    DaysFresh =	2,
+	    DaysTotallyRotten =	 4,
+	    EvolvedRecipe = Sandwich:5;Sandwich Baguette:5;Burger:5;Taco:5;Burrito:5,
+	    FoodType = Vegetables,
+        Carbohydrates = 11.5,
+        Proteins = 2.54,
+        Lipids = 0.2,
+        Calories = 49.44,
+        StaticModel = RoundFood_Green,
+        WorldStaticModel = Cabbage_Ground,
+	}
+	
+
+    item RasCarrotsBait
+	{
+		DisplayName = Piece of Carrot,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.1,
+		Icon = Carrots,
+		EvolvedRecipe = Sandwich:5;Sandwich Baguette:5;Salad:5,
+		FoodType = Vegetables,
+		DaysFresh = 6,
+		DaysTotallyRotten = 8,
+		HungerChange = -5,
+		Calories = 20.04,
+		Carbohydrates = 4.08,
+		Lipids = 0.11,
+		Proteins = 0.49,
+		StaticModel = CylinderFood_Orange,
+		WorldStaticModel = Carrots_Ground,
+		EvolvedRecipeName = Carrot,
+	}
+
+    item RasCarrotsBaitRotten
+	{
+		DisplayName = Piece of Carrot,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.1,
+		Icon = RasCarrotsRotten,
+		EvolvedRecipe = Sandwich:5;Sandwich Baguette:5;Salad:5,
+		FoodType = Vegetables,
+		DaysFresh = 6,
+		DaysTotallyRotten = 8,
+		HungerChange = -5,
+		Calories = 20.04,
+		Carbohydrates = 4.08,
+		Lipids = 0.11,
+		Proteins = 0.49,
+		StaticModel = CylinderFood_Orange,
+		WorldStaticModel = Carrots_Ground,
+		EvolvedRecipeName = Carrot,
+	}
+
+    item RasEggplantBait
+	{
+		DisplayName = Piece of Eggplant,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.1,
+		Icon = Eggplant,
+		EvolvedRecipe = Pizza:5;Omelette:5;Soup:5;Stew:5;Pie:5;Stir fry Griddle Pan:5;Stir fry:5;Burger:5;Sandwich:5;Sandwich Baguette:5;Salad:5;Roasted Vegetables:5;RicePot:5;RicePan:5;PastaPot:5;PastaPan:5,
+		FoodType = Vegetables,
+		DaysFresh = 5,
+		DaysTotallyRotten = 8,
+		HungerChange = -5,
+		Calories = 53.44,
+		Carbohydrates = 12.62,
+		Lipids = 0.38,
+		Proteins = 2.1,
+		StaticModel = CylinderFood_Purple,
+		WorldStaticModel = EggPlant_Ground,
+	}
+
+    item RasEggplantBaitRotten
+	{
+		DisplayName = Piece of Eggplant,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.1,
+		Icon = RasEggplantRotten,
+		EvolvedRecipe = Pizza:5;Omelette:5;Soup:5;Stew:5;Pie:5;Stir fry Griddle Pan:5;Stir fry:5;Burger:5;Sandwich:5;Sandwich Baguette:5;Salad:5;Roasted Vegetables:5;RicePot:5;RicePan:5;PastaPot:5;PastaPan:5,
+		FoodType = Vegetables,
+		DaysFresh = 5,
+		DaysTotallyRotten = 8,
+		HungerChange = -5,
+		Calories = 53.44,
+		Carbohydrates = 12.62,
+		Lipids = 0.38,
+		Proteins = 2.1,
+		StaticModel = CylinderFood_Purple,
+		WorldStaticModel = EggPlant_Ground,
+	}
+	
+    item RasLeeksBait
+	{
+		DisplayName = Piece of Leek,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.1,
+		Icon = Leek,
+		EvolvedRecipe = Omelette:5;Soup:5;Stew:5;Pie:5;Stir fry Griddle Pan:5;Stir fry:5;Salad:5;Roasted Vegetables:5;RicePot:5;RicePan:5;PastaPot:5;PastaPan:5,
+		FoodType = Vegetables,
+		DaysFresh = 5,
+		DaysTotallyRotten = 8,
+		HungerChange = -5,
+		Calories = 33.75,
+		Carbohydrates = 7.87,
+		Lipids = 0.17,
+		Proteins = 0.84,
+		StaticModel = CylinderFood_Green,
+		WorldStaticModel = Leek_Ground,
+	}
+
+    item RasLeeksBaitRotten
+	{
+		DisplayName = Piece of Leek,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.1,
+		Icon = RasLeekRotten,
+		EvolvedRecipe = Omelette:5;Soup:5;Stew:5;Pie:5;Stir fry Griddle Pan:5;Stir fry:5;Salad:5;Roasted Vegetables:5;RicePot:5;RicePan:5;PastaPot:5;PastaPan:5,
+		FoodType = Vegetables,
+		DaysFresh = 5,
+		DaysTotallyRotten = 8,
+		HungerChange = -5,
+		Calories = 33.75,
+		Carbohydrates = 7.87,
+		Lipids = 0.17,
+		Proteins = 0.84,
+		StaticModel = CylinderFood_Green,
+		WorldStaticModel = Leek_Ground,
+	}
+
+	item RasPotatoBait
+	{
+	    DisplayCategory = Food,
+	    Type = Food,
+	    DisplayName	= Piece of Potato,
+	    Icon = Potato,
+	    Weight = 0.1,
+        EvolvedRecipe = Omelette:5;Soup:5;Stew:5;Pie:5;Stir fry Griddle Pan:5;Stir fry:5;Salad:5;Roasted Vegetables:5,
+	    HungerChange = -5,
+	    DaysFresh = 14,
+	    DaysTotallyRotten =	28,
+        FoodType = Vegetables,
+        Carbohydrates = 6.05,
+        Proteins = 1.2,
+        Lipids = 0.0625,
+        Calories = 29.17,
+        WorldStaticModel = Potato_Ground,
+	}
+
+    item RasPotatoBaitRotten
+	{
+	    DisplayCategory = Food,
+	    Type = Food,
+	    DisplayName	= Piece of Potato,
+	    Icon = RasPotatoRotten,
+	    Weight = 0.1,
+        EvolvedRecipe = Omelette:5;Soup:5;Stew:5;Pie:5;Stir fry Griddle Pan:5;Stir fry:5;Salad:5;Roasted Vegetables:5,
+	    HungerChange = -5,
+	    DaysFresh = 14,
+	    DaysTotallyRotten =	28,
+        FoodType = Vegetables,
+        Carbohydrates = 6.05,
+        Proteins = 1.2,
+        Lipids = 0.0625,
+        Calories = 29.17,
+        WorldStaticModel = Potato_Ground,
+	}
+
+    item RasRadishBait
+	{
+	    DisplayCategory = Food,
+	    Type = Food,
+	    DisplayName	= Piece of Radish,
+	    Icon = Radish,
+	    Weight = 0.1,
+        HungerChange = -5,
+	    DaysFresh =	3,
+	    DaysTotallyRotten =	7,
+	    EvolvedRecipe = Soup:5;Stew:5;Stir fry Griddle Pan:5;Stir fry:5;Burger:5;Salad:5;Roasted Vegetables:5,
+	    FoodType = Vegetables,
+        Carbohydrates = 0.3,
+        Proteins = 0,
+        Lipids = 0,
+        Calories = 2,
+        StaticModel = RoundFood_Red,
+        WorldStaticModel = RedRadish_Ground,
+	}
+ 
+    item RasRadishBaitRotten
+	{
+	    DisplayCategory = Food,
+	    Type = Food,
+	    DisplayName	= Piece of Radish,
+	    Icon = RasRadishRotten,
+	    Weight = 0.1,
+        HungerChange = -5,
+	    DaysFresh =	3,
+	    DaysTotallyRotten =	7,
+	    EvolvedRecipe = Soup:5;Stew:5;Stir fry Griddle Pan:5;Stir fry:5;Burger:5;Salad:5;Roasted Vegetables:5,
+	    FoodType = Vegetables,
+        Carbohydrates = 0.3,
+        Proteins = 0,
+        Lipids = 0,
+        Calories = 2,
+        StaticModel = RoundFood_Red,
+        WorldStaticModel = RedRadish_Ground,
+	}
+
+       
+    item RasTomatoBait
+	{
+	    DisplayCategory = Food,
+	    Type = Food,
+	    DisplayName	= Piece of Tomato,
+	    Icon = Tomato,
+	    Weight = 0.1,
+	    HungerChange = -5,
+	    DaysFresh =	4,
+	    DaysTotallyRotten =	12,
+	    EvolvedRecipe = Omelette:5;Sandwich:5;Sandwich Baguette:5;Burger:5;Salad:5;Taco:5;Burrito:5,
+	    FoodType = Vegetables,
+        Carbohydrates = 2.21,
+        Proteins = 0.81,
+        Lipids = 0.13,
+        Calories = 8.75,
+        StaticModel = RoundFood_Red,
+        WorldStaticModel = Tomato_Ground,
+	}
+  
+    item RasTomatoBaitRotten
+	{
+	    DisplayCategory = Food,
+	    Type = Food,
+	    DisplayName	= Piece of Tomato,
+	    Icon = RasTomatoRotten,
+	    Weight = 0.1,
+	    HungerChange = -5,
+	    DaysFresh =	4,
+	    DaysTotallyRotten =	12,
+	    EvolvedRecipe = Omelette:5;Sandwich:5;Sandwich Baguette:5;Burger:5;Salad:5;Taco:5;Burrito:5,
+	    FoodType = Vegetables,
+        Carbohydrates = 2.21,
+        Proteins = 0.81,
+        Lipids = 0.13,
+        Calories = 8.75,
+        StaticModel = RoundFood_Red,
+        WorldStaticModel = Tomato_Ground,
+	}
+
+
+/***************************************************************************************/
+/*********************** BAITS COMING FROM PICKLES *************************************/
+/***************************************************************************************/
+
+
+
+    	
+    item RasPickledBellPepperBait
+	{
+		DisplayName = Piece of Pickled Bell Pepper,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.1,
+		Icon = BellPepper,
+		EvolvedRecipe = Sandwich:2;Sandwich Baguette:3;Burger:3;Salad:5;Taco:2;Burrito:5,
+		FoodType = Vegetables,
+		DaysFresh = 10,
+		DaysTotallyRotten = 14,
+		HungerChange = -5,
+        BoredomChange = -2,
+		Calories = 37.88,
+		Carbohydrates = 6.93,
+		Lipids = 0,
+		Proteins = 0.92,
+		StaticModel = RoundFood_Red,
+        WorldStaticModel = BellPepper_Ground,
+		EvolvedRecipeName = Pepper,
+	}
+
+    item RasPickledBellPepperBaitRotten
+	{
+		DisplayName = Piece of Pickled Bell Pepper,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.1,
+		Icon = RasBellPepperRotten,
+		EvolvedRecipe = Sandwich:2;Sandwich Baguette:3;Burger:3;Salad:5;Taco:2;Burrito:5,
+		FoodType = Vegetables,
+		DaysFresh = 10,
+		DaysTotallyRotten = 14,
+		HungerChange = -5,
+        BoredomChange = -2,
+		Calories = 37.88,
+		Carbohydrates = 6.93,
+		Lipids = 0,
+		Proteins = 0.92,
+		StaticModel = RoundFood_Red,
+        WorldStaticModel = BellPepper_Ground,
+		EvolvedRecipeName = Pepper,
+	}
+
+    item RasPickledBroccoliBait
+	{
+		DisplayName = Piece of Pickled Broccoli,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.1,
+		Icon = Broccoli,
+		EvolvedRecipe = Pizza:5;Omelette:5;Soup:5;Stew:5;Pie:5;Stir fry Griddle Pan:5;Stir fry:5;Salad:5;Roasted Vegetables:5;RicePot:5;RicePan:5;PastaPot:5;PastaPan:5,
+		FoodType = Vegetables,
+		DaysFresh = 10,
+		DaysTotallyRotten = 14,
+		HungerChange = -5,
+        BoredomChange = -2,
+		Calories = 15.27,
+		Carbohydrates = 2.09,
+		Lipids = 1.31,
+		Proteins = 0.89,
+        StaticModel = CylinderFood_Green,
+		WorldStaticModel = Broccoli_Ground,	
+	}
+
+    item RasPickledBroccoliBaitRotten
+	{
+		DisplayName = Piece of Pickled Broccoli,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.1,
+		Icon = RasBroccoliRotten,
+		EvolvedRecipe = Pizza:5;Omelette:5;Soup:5;Stew:5;Pie:5;Stir fry Griddle Pan:5;Stir fry:5;Salad:5;Roasted Vegetables:5;RicePot:5;RicePan:5;PastaPot:5;PastaPan:5,
+		FoodType = Vegetables,
+		DaysFresh = 10,
+		DaysTotallyRotten = 14,
+		HungerChange = -5,
+        BoredomChange = -2,
+		Calories = 15.27,
+		Carbohydrates = 2.09,
+		Lipids = 1.31,
+		Proteins = 0.89,
+        StaticModel = CylinderFood_Green,
+		WorldStaticModel = Broccoli_Ground,	
+	}
+
+
+    item RasPickledCabbageBait
+	{
+	    DisplayCategory = Food,
+	    Type = Food,
+	    DisplayName	= Piece of Pickled Cabbage,
+	    Icon = Cabbage,
+	    Weight = 0.1,
+	    HungerChange = -5,
+        BoredomChange = -2
+	    DaysFresh =	10,
+	    DaysTotallyRotten =	 14,
+	    EvolvedRecipe = Sandwich:5;Sandwich Baguette:5;Burger:5;Taco:5;Burrito:5,
+	    FoodType = Vegetables,
+        Carbohydrates = 12.65,
+        Proteins = 2.79,
+        Lipids = 0.26,
+        Calories = 74.16,
+        StaticModel = RoundFood_Green,
+        WorldStaticModel = Cabbage_Ground,
+	}
+
+    item RasPickledCabbageBaitRotten
+	{
+	    DisplayCategory = Food,
+	    Type = Food,
+	    DisplayName	= Piece of Pickled Cabbage,
+	    Icon = RasCabbageRotten,
+	    Weight = 0.1,
+	    HungerChange = -5,
+        BoredomChange = -2
+	    DaysFresh =	10,
+	    DaysTotallyRotten =	 14,
+	    EvolvedRecipe = Sandwich:5;Sandwich Baguette:5;Burger:5;Taco:5;Burrito:5,
+	    FoodType = Vegetables,
+        Carbohydrates = 12.65,
+        Proteins = 2.79,
+        Lipids = 0.26,
+        Calories = 74.16,
+        StaticModel = RoundFood_Green,
+        WorldStaticModel = Cabbage_Ground,
+	}
+	
+
+    item RasPickledCarrotsBait
+	{
+		DisplayName = Piece of Pickled Carrot,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.1,
+		Icon = Carrots,
+		EvolvedRecipe = Sandwich:5;Sandwich Baguette:5;Salad:5,
+		FoodType = Vegetables,
+		DaysFresh = 10,
+		DaysTotallyRotten = 14,
+		HungerChange = -5,
+        BoredomChange = -2,
+		Calories = 30.06,
+		Carbohydrates = 4.49,
+		Lipids = 0.14,
+		Proteins = 0.54,
+		StaticModel = CylinderFood_Orange,
+		WorldStaticModel = Carrots_Ground,
+		EvolvedRecipeName = Carrot,
+	}
+
+    item RasPickledCarrotsBaitRotten
+	{
+		DisplayName = Piece of Pickled Carrot,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.1,
+		Icon = RasCarrotsRotten,
+		EvolvedRecipe = Sandwich:5;Sandwich Baguette:5;Salad:5,
+		FoodType = Vegetables,
+		DaysFresh = 10,
+		DaysTotallyRotten = 14,
+		HungerChange = -5,
+        BoredomChange = -2,
+		Calories = 30.06,
+		Carbohydrates = 4.49,
+		Lipids = 0.14,
+		Proteins = 0.54,
+		StaticModel = CylinderFood_Orange,
+		WorldStaticModel = Carrots_Ground,
+		EvolvedRecipeName = Carrot,
+	}
+
+    item RasPickledEggplantBait
+	{
+		DisplayName = Piece of Pickled Eggplant,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.1,
+		Icon = Eggplant,
+		EvolvedRecipe = Pizza:5;Omelette:5;Soup:5;Stew:5;Pie:5;Stir fry Griddle Pan:5;Stir fry:5;Burger:5;Sandwich:5;Sandwich Baguette:5;Salad:5;Roasted Vegetables:5;RicePot:5;RicePan:5;PastaPot:5;PastaPan:5,
+		FoodType = Vegetables,
+		DaysFresh = 10,
+		DaysTotallyRotten = 14,
+		HungerChange = -5,
+        BoredomChange = -2,
+		Calories = 80.16,
+		Carbohydrates = 13.88,
+		Lipids = 0.49,
+		Proteins = 2.31,
+		StaticModel = CylinderFood_Purple,
+		WorldStaticModel = EggPlant_Ground,
+	}
+  
+    item RasPickledEggplantBaitRotten
+	{
+		DisplayName = Piece of Pickled Eggplant,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.1,
+		Icon = RasEggplantRotten,
+		EvolvedRecipe = Pizza:5;Omelette:5;Soup:5;Stew:5;Pie:5;Stir fry Griddle Pan:5;Stir fry:5;Burger:5;Sandwich:5;Sandwich Baguette:5;Salad:5;Roasted Vegetables:5;RicePot:5;RicePan:5;PastaPot:5;PastaPan:5,
+		FoodType = Vegetables,
+		DaysFresh = 10,
+		DaysTotallyRotten = 14,
+		HungerChange = -5,
+        BoredomChange = -2,
+		Calories = 80.16,
+		Carbohydrates = 13.88,
+		Lipids = 0.49,
+		Proteins = 2.31,
+		StaticModel = CylinderFood_Purple,
+		WorldStaticModel = EggPlant_Ground,
+	}
+	
+    item RasPickledLeeksBait
+	{
+		DisplayName = Piece of Pickled Leek,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.1,
+		Icon = Leek,
+		EvolvedRecipe = Omelette:5;Soup:5;Stew:5;Pie:5;Stir fry Griddle Pan:5;Stir fry:5;Salad:5;Roasted Vegetables:5;RicePot:5;RicePan:5;PastaPot:5;PastaPan:5,
+		FoodType = Vegetables,
+		DaysFresh = 10,
+		DaysTotallyRotten = 14,
+		HungerChange = -5,
+        BoredomChange = -2,
+		Calories = 50.63,
+		Carbohydrates = 8.66,
+		Lipids = 0.22,
+		Proteins = 0.92,
+		StaticModel = CylinderFood_Green,
+		WorldStaticModel = Leek_Ground,
+	}
+
+    item RasPickledLeeksBaitRotten
+	{
+		DisplayName = Piece of Pickled Leek,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.1,
+		Icon = RasLeekRotten,
+		EvolvedRecipe = Omelette:5;Soup:5;Stew:5;Pie:5;Stir fry Griddle Pan:5;Stir fry:5;Salad:5;Roasted Vegetables:5;RicePot:5;RicePan:5;PastaPot:5;PastaPan:5,
+		FoodType = Vegetables,
+		DaysFresh = 10,
+		DaysTotallyRotten = 14,
+		HungerChange = -5,
+        BoredomChange = -2,
+		Calories = 50.63,
+		Carbohydrates = 8.66,
+		Lipids = 0.22,
+		Proteins = 0.92,
+		StaticModel = CylinderFood_Green,
+		WorldStaticModel = Leek_Ground,
+	}
+
+	item RasPickledPotatoBait
+	{
+	    DisplayCategory = Food,
+	    Type = Food,
+	    DisplayName	= Piece of Pickled Potato,
+	    Icon = Potato,
+	    Weight = 0.1,
+        EvolvedRecipe = Omelette:5;Soup:5;Stew:5;Pie:5;Stir fry Griddle Pan:5;Stir fry:5;Salad:5;Roasted Vegetables:5,
+	    HungerChange = -5,
+        BoredomChange = -2,
+	    DaysFresh = 24,
+	    DaysTotallyRotten =	32,
+        FoodType = Vegetables,
+        Carbohydrates = 6.66,
+        Proteins = 1.32,
+        Lipids = 0.08,
+        Calories = 43.76,
+        WorldStaticModel = Potato_Ground,
+	}
+
+    item RasPickledPotatoBaitRotten
+	{
+	    DisplayCategory = Food,
+	    Type = Food,
+	    DisplayName	= Piece of Pickled Potato,
+	    Icon = RasPotatoRotten,
+	    Weight = 0.1,
+        EvolvedRecipe = Omelette:5;Soup:5;Stew:5;Pie:5;Stir fry Griddle Pan:5;Stir fry:5;Salad:5;Roasted Vegetables:5,
+	    HungerChange = -5,
+        BoredomChange = -2,
+	    DaysFresh = 24,
+	    DaysTotallyRotten =	32,
+        FoodType = Vegetables,
+        Carbohydrates = 6.66,
+        Proteins = 1.32,
+        Lipids = 0.08,
+        Calories = 43.76,
+        WorldStaticModel = Potato_Ground,
+	}
+
+    item RasPickledRadishBait
+	{
+	    DisplayCategory = Food,
+	    Type = Food,
+	    DisplayName	= Piece of Pickled Radish,
+	    Icon = Radish,
+	    Weight = 0.1,
+        HungerChange = -5,
+        BoredomChange = -2,
+	    DaysFresh =	10,
+	    DaysTotallyRotten =	14,
+	    EvolvedRecipe = Soup:5;Stew:5;Stir fry Griddle Pan:5;Stir fry:5;Burger:5;Salad:5;Roasted Vegetables:5,
+	    FoodType = Vegetables,
+        Carbohydrates = 0.33,
+        Proteins = 0,
+        Lipids = 0,
+        Calories = 3,
+        StaticModel = RoundFood_Red,
+        WorldStaticModel = RedRadish_Ground,
+	}
+
+    item RasPickledRadishBaitRotten
+	{
+	    DisplayCategory = Food,
+	    Type = Food,
+	    DisplayName	= Piece of Pickled Radish,
+	    Icon = RasRadishRotten,
+	    Weight = 0.1,
+        HungerChange = -5,
+        BoredomChange = -2,
+	    DaysFresh =	10,
+	    DaysTotallyRotten =	14,
+	    EvolvedRecipe = Soup:5;Stew:5;Stir fry Griddle Pan:5;Stir fry:5;Burger:5;Salad:5;Roasted Vegetables:5,
+	    FoodType = Vegetables,
+        Carbohydrates = 0.33,
+        Proteins = 0,
+        Lipids = 0,
+        Calories = 3,
+        StaticModel = RoundFood_Red,
+        WorldStaticModel = RedRadish_Ground,
+	}
+
+       
+    item RasPickledTomatoBait
+	{
+	    DisplayCategory = Food,
+	    Type = Food,
+	    DisplayName	= Piece of Pickled Tomato,
+	    Icon = Tomato,
+	    Weight = 0.1,
+	    HungerChange = -5,
+        BoredomChange = -2,
+	    DaysFresh =	10,
+	    DaysTotallyRotten =	14,
+	    EvolvedRecipe = Omelette:5;Sandwich:5;Sandwich Baguette:5;Burger:5;Salad:5;Taco:5;Burrito:5,
+	    FoodType = Vegetables,
+        Carbohydrates = 2.43,
+        Proteins = 0.89,
+        Lipids = 0.17,
+        Calories = 13.13,
+        StaticModel = RoundFood_Red,
+        WorldStaticModel = Tomato_Ground,
+	}
+
+    item RasPickledTomatoBaitRotten
+	{
+	    DisplayCategory = Food,
+	    Type = Food,
+	    DisplayName	= Piece of Pickled Tomato,
+	    Icon = RasTomatoRotten,
+	    Weight = 0.1,
+	    HungerChange = -5,
+        BoredomChange = -2,
+	    DaysFresh =	10,
+	    DaysTotallyRotten =	14,
+	    EvolvedRecipe = Omelette:5;Sandwich:5;Sandwich Baguette:5;Burger:5;Salad:5;Taco:5;Burrito:5,
+	    FoodType = Vegetables,
+        Carbohydrates = 2.43,
+        Proteins = 0.89,
+        Lipids = 0.17,
+        Calories = 13.13,
+        StaticModel = RoundFood_Red,
+        WorldStaticModel = Tomato_Ground,
+	}
+
+
+
+/*****************************************************************************************************/
+/**************************** BAIT COMING FROM VANILLA JARS/JAMS *************************************/
+/*****************************************************************************************************/
+
+
+    item RasJamBaitRed
+	{
+		DisplayName = Dollop of Fruit Jam,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.1,
+		Icon = RasBlobRed,
+		EvolvedRecipe = Sandwich:3;Sandwich Baguette:3;Pancakes:5;Waffles:5;ConeIcecream:5;Toast:3;Oatmeal:3,
+		FoodType = NoExplicit,
+        HungerChange = -5,
+		UnhappyChange = -1,
+		DaysFresh = 10,
+        DaysTotallyRotten = 14,
+		Calories = 71,
+		Carbohydrates = 16,
+		Lipids = 0,
+		Proteins = 0,
+		WorldStaticModel = EggPoached_Ground,
+	}
+
+    item RasJamBaitRotten
+	{
+		DisplayName = Dollop of Fruit Jam,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.1,
+		Icon = RasBlobRottenRed,
+		EvolvedRecipe = Sandwich:3;Sandwich Baguette:3;Pancakes:5;Waffles:5;ConeIcecream:5;Toast:3;Oatmeal:3,
+		FoodType = NoExplicit,
+        HungerChange = -5,
+		UnhappyChange = -1,
+		DaysFresh = 10,
+        DaysTotallyRotten = 14,
+		Calories = 71,
+		Carbohydrates = 16,
+		Lipids = 0,
+		Proteins = 0,
+		WorldStaticModel = EggPoached_Ground,
+	}
+
+
+    item RasJamBaitBlue
+	{
+		DisplayName = Dollop of Fruit Jam,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.1,
+		Icon = RasBlobBlue,
+		EvolvedRecipe = Sandwich:3;Sandwich Baguette:3;Pancakes:5;Waffles:5;ConeIcecream:5;Toast:3;Oatmeal:3,
+		FoodType = NoExplicit,
+        HungerChange = -5,
+		UnhappyChange = -1,
+		DaysFresh = 10,
+        DaysTotallyRotten = 14,
+		Calories = 71,
+		Carbohydrates = 16,
+		Lipids = 0,
+		Proteins = 0,
+		WorldStaticModel = RasBlobJam_Ground,
+	}
+
+    item RasJamBaitBlueRotten
+	{
+		DisplayName = Dollop of Fruit Jam,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.1,
+		Icon = RasBlobRottenBlue,
+		EvolvedRecipe = Sandwich:3;Sandwich Baguette:3;Pancakes:5;Waffles:5;ConeIcecream:5;Toast:3;Oatmeal:3,
+		FoodType = NoExplicit,
+        HungerChange = -5,
+		UnhappyChange = -1,
+		DaysFresh = 10,
+        DaysTotallyRotten = 14,
+		Calories = 71,
+		Carbohydrates = 16,
+		Lipids = 0,
+		Proteins = 0,
+		WorldStaticModel = RasBlobJam_Ground,
+	}
+
+    item RasJamBaitOrange
+	{
+		DisplayName = Dollop of Fruit Jam,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.1,
+		Icon = RasBlobOrange,
+		EvolvedRecipe = Sandwich:3;Sandwich Baguette:3;Pancakes:5;Waffles:5;ConeIcecream:5;Toast:3;Oatmeal:3,
+		FoodType = NoExplicit,
+        HungerChange = -5,
+		UnhappyChange = -1,
+		DaysFresh = 10,
+        DaysTotallyRotten = 14,
+		Calories = 71,
+		Carbohydrates = 16,
+		Lipids = 0,
+		Proteins = 0,
+		WorldStaticModel = RasBlobJam_Ground,
+	}
+
+    item RasJamBaitOrangeRotten
+	{
+		DisplayName = Dollop of Fruit Jam,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.1,
+		Icon = RasBlobRottenOrange,
+		EvolvedRecipe = Sandwich:3;Sandwich Baguette:3;Pancakes:5;Waffles:5;ConeIcecream:5;Toast:3;Oatmeal:3,
+		FoodType = NoExplicit,
+        HungerChange = -5,
+		UnhappyChange = -1,
+		DaysFresh = 10,
+        DaysTotallyRotten = 14,
+		Calories = 71,
+		Carbohydrates = 16,
+		Lipids = 0,
+		Proteins = 0,
+		WorldStaticModel = RasBlobJam_Ground,
+	}
+
+    item RasMarinaraBait
+	{
+		DisplayName = Dollop of Marinara,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.1,
+		Icon = RasBlobDarkRed,
+		EvolvedRecipe = Pizza:5;Sandwich:2;Sandwich Baguette:2;Burger:2;RicePot:2;RicePan:2;PastaPot:2;PastaPan:2,
+		Spice = true,
+		HungerChange = -5,
+		Calories = 175,
+		Carbohydrates = 27.5,
+		Lipids = 3.75,
+		Proteins = 5,
+        DaysFresh = 10,
+        DaysTotallyRotten = 14,
+		WorldStaticModel = Marinara,
+		FoodType = NoExplicit,
+	}
+
+    item RasMarinaraBaitRotten
+	{
+		DisplayName = Dollop of Marinara,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.1,
+		Icon = RasBlobRottenDarkRed,
+		EvolvedRecipe = Pizza:5;Sandwich:2;Sandwich Baguette:2;Burger:2;RicePot:2;RicePan:2;PastaPot:2;PastaPan:2,
+		Spice = true,
+		HungerChange = -5,
+		Calories = 175,
+		Carbohydrates = 27.5,
+		Lipids = 3.75,
+		Proteins = 5,
+        DaysFresh = 10,
+        DaysTotallyRotten = 14,
+		WorldStaticModel = Marinara,
+		FoodType = NoExplicit,
+	}
+
+    item RasPeanutButterBait
+	{
+		DisplayName = Dollop of Peanut Butter,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.1,
+		Icon = RasBlobBrown,
+		EvolvedRecipe = Soup:5;Stir fry Griddle Pan:5;Stir fry:5;Sandwich:5;Sandwich Baguette:5;Toast:5;ConeIcecream:5,
+		FoodType = NoExplicit,
+		HungerChange = -5,
+		UnhappyChange = -3,
+		Calories = 532,
+		Carbohydrates = 25.6,
+		Lipids = 44.8,
+		Proteins = 16.8,
+        DaysFresh = 10,
+        DaysTotallyRotten = 14,
+		WorldStaticModel = PeanutButter,
+	}
+
+    item RasPeanutButterBaitRotten
+	{
+		DisplayName = Dollop of Peanut Butter,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.1,
+		Icon = RasBlobRottenBrown,
+		EvolvedRecipe = Soup:5;Stir fry Griddle Pan:5;Stir fry:5;Sandwich:5;Sandwich Baguette:5;Toast:5;ConeIcecream:5,
+		FoodType = NoExplicit,
+		HungerChange = -5,
+		UnhappyChange = -3,
+		Calories = 532,
+		Carbohydrates = 25.6,
+		Lipids = 44.8,
+		Proteins = 16.8,
+        DaysFresh = 10,
+        DaysTotallyRotten = 14,
+		WorldStaticModel = PeanutButter,
+	}
+
+
+
+
+
+
+}
+
+

@@ -1,0 +1,7 @@
+
+
+Tooltip_DE = {
+
+    Tooltip_Jar = "Kann benutzt werden, um Lebensmittel haltbar zu machen. Benötigt einen Schraubdeckel.",
+
+}

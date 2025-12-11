@@ -1,0 +1,47 @@
+
+UI_DE = {
+
+  UI_rasFarming_InSeason = "Anbausaison"
+  UI_rasFarming_NotInSeasonWarn = "Außerhalb der Anbausaison. Die Pflanzen werden nicht wachsen."
+  UI_rasFarming_NotInSeason = "Außerhalb der Anbausaison."
+  UI_rasFarming_CanBeHarvested = "Kann wahrscheinlich vor Ende der Anbausaison geerntet werden."
+  UI_rasFarming_CanNotBeHarvested = "Kann womöglich nicht mehr während der Anbausaison geerntet werden."
+  UI_rasFarming_SeasonOverSoon = "Anbausaison endet in wenigen Tagen."
+  UI_rasFarming_ShouldHarvest = "Ich sollte bald ernten."
+
+  UI_rasFarming_SeasonOverSoonA = "Anbausaison endet"
+  UI_rasFarming_SeasonOverSoonB = "in wenigen Tagen."
+
+
+  UI_rasFarming_Jan = "Jan."
+  UI_rasFarming_Feb = "Feb."
+  UI_rasFarming_March = "März"
+  UI_rasFarming_April = "April"
+  UI_rasFarming_May = "Mai"
+  UI_rasFarming_June = "Juni"
+  UI_rasFarming_July = "Juli"
+  UI_rasFarming_Aug = "Aug."
+  UI_rasFarming_Sep = "Sep."
+  UI_rasFarming_Oct = "Okt."
+  UI_rasFarming_Nov = "Nov."
+  UI_rasFarming_Dec = "Dez."
+
+  UI_rasFarming_Until = "Haltbar bis"
+
+  UI_rasFarming_AddRottenFood = "Verdorbene Nahrung aus Einmachgläsern hinzugeben"
+
+  UI_rasFarming_OpenJar = "Glas öffnen",  
+
+  UI_rasFarming_Berry_Ingredient = "Beere x 5",
+  UI_rasFarming_Broccoli_Ingredient = "Brokkoli x 5"
+  UI_rasFarming_Tomato_Ingredient = "Tomate x 3"
+  UI_rasFarming_Carrots_Ingredient = "Karrote x 5" 
+  UI_rasFarming_Potato_Ingredient = "Kartoffel x 3"
+  UI_rasFarming_Eggplant_Ingredient = "Aubergine x 3"
+  UI_rasFarming_Leek_Ingredient = "Lauch x 3"
+  UI_rasFarming_RedRaddish_Ingredient = "Radieschen x 10"
+  UI_rasFarming_BellPepper_Ingredient = "Paprika x 5"
+  UI_rasFarming_Cabbage_Ingredient = "Kohl x 2"
+  UI_rasFarming_Strewberry_Ingredient = "Erdbeere x 5"
+
+}

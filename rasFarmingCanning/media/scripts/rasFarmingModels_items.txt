@@ -1,0 +1,255 @@
+module Base 
+{
+
+
+/******* MODELS FOR CLOSED JARS (USED FOR NORMAL JARS AND PICKLES); OVERWRITES VANILLA; REASON IS TO RESCALE THEM SO THAT THEY HAVE THE SAME SIZE AS OTHER JARS AND VANILLA CANS ******/
+
+	model JarFoodBellPeppers_Ground
+    {
+		mesh = WorldItems/JarFood,
+		texture = WorldItems/JarFoodBellPeppers,
+		scale = 0.4,
+    }
+	model JarFoodBroccoli_Ground
+    {
+		mesh = WorldItems/JarFood,
+		texture = WorldItems/JarFoodBroccoli,
+		scale = 0.4,
+    }
+	model JarFoodCabbage_Ground
+    {
+		mesh = WorldItems/JarFood,
+		texture = WorldItems/JarFoodCabbage,
+		scale = 0.4,
+    }
+	model JarFoodCarrots_Ground
+    {
+		mesh = WorldItems/JarFood,
+		texture = WorldItems/JarFoodCarrots,
+		scale = 0.4,
+    }
+	model JarFoodEggplants_Ground
+    {
+		mesh = WorldItems/JarFood,
+		texture = WorldItems/JarFoodEggplants,
+		scale = 0.4,
+    }
+	model JarFoodLeeks_Ground
+    {
+		mesh = WorldItems/JarFood,
+		texture = WorldItems/JarFoodLeeks,
+		scale = 0.4,
+    }
+	model JarFoodPotatoes_Ground
+    {
+		mesh = WorldItems/JarFood,
+		texture = WorldItems/JarFoodPotatoes,
+		scale = 0.4,
+    }
+	model JarFoodRadish_Ground
+    {
+		mesh = WorldItems/JarFood,
+		texture = WorldItems/JarFoodRadish,
+		scale = 0.4,
+    }
+	model JarFoodTomatoes_Ground
+    {
+		mesh = WorldItems/JarFood,
+		texture = WorldItems/JarFoodTomatoes,
+		scale = 0.4,
+    }
+
+
+
+
+/**** MODELS FOR OPEN JARS (USED FOR NORMAL JARS AND PICKLES) ****/
+
+    model RasJarBellPeppersOpen_Ground
+    {
+		mesh = WorldItems/RasOpenJar,
+		texture = ItemTextures/RasJarBellPeppersOpenTexture,
+		scale = 0.4,
+    }
+    
+    model RasJarBroccoliOpen_Ground
+    {
+		mesh = WorldItems/RasOpenJar,
+		texture = ItemTextures/RasJarBroccoliOpenTexture,
+		scale = 0.4,
+    }
+
+    model RasJarCabbageOpen_Ground
+    {
+		mesh = WorldItems/RasOpenJar,
+		texture = ItemTextures/RasJarCabbageOpenTexture,
+		scale = 0.4,
+    }
+    
+    model RasJarCarrotsOpen_Ground
+    {
+		mesh = WorldItems/RasOpenJar,
+		texture = ItemTextures/RasJarCarrotsOpenTexture,
+		scale = 0.4,
+    }
+
+    model RasJarEggplantsOpen_Ground
+    {
+		mesh = WorldItems/RasOpenJar,
+		texture = ItemTextures/RasJarEggplantsOpenTexture,
+		scale = 0.4,
+    }
+    
+    model RasJarLeeksOpen_Ground
+    {
+		mesh = WorldItems/RasOpenJar,
+		texture = ItemTextures/RasJarLeeksOpenTexture,
+		scale = 0.4,
+    }
+
+    model RasJarPotatoesOpen_Ground
+    {
+		mesh = WorldItems/RasOpenJar,
+		texture = ItemTextures/RasJarPotatoesOpenTexture,
+		scale = 0.4,
+    }
+
+    model RasJarRadishOpen_Ground
+    {
+		mesh = WorldItems/RasOpenJar,
+		texture = ItemTextures/RasJarRadishOpenTexture,
+		scale = 0.4,
+    }
+
+    model RasJarTomatoesOpen_Ground
+    {
+		mesh = WorldItems/RasOpenJar,
+		texture = ItemTextures/RasJarTomatoesOpenTexture,
+		scale = 0.4,
+    }
+
+
+/**** OPEN AND CLOSED MODELS FOR THE JAMS ****/
+
+
+
+    model RasJamRed_Ground 
+    {
+		mesh = WorldItems/JarFood,    
+		texture = ItemTextures/RasJarRed, 
+		scale = 0.4, 
+    }     
+
+    model RasJamRedOpen_Ground
+	{
+		mesh = WorldItems/RasOpenJar,
+		texture = ItemTextures/RasJarRedOpenTexture,
+        scale = 0.4,
+	}
+
+
+    model RasJamBlue_Ground
+    {
+		mesh = WorldItems/JarFood,
+		texture = ItemTextures/RasJarBlue,
+		scale = 0.4,
+    }
+
+    model RasJamBlueOpen_Ground
+    {
+		mesh = WorldItems/RasOpenJar,
+		texture = ItemTextures/RasJarBlueOpenTexture,
+		scale = 0.4,
+    }
+
+    model RasJamOrange_Ground
+    {
+		mesh = WorldItems/JarFood,
+		texture = ItemTextures/RasJarOrange,
+		scale = 0.4,
+    }
+
+    model RasJamOrangeOpen_Ground
+    {
+		mesh = WorldItems/RasOpenJar,
+		texture = ItemTextures/RasJarOrangeOpenTexture,
+        scale = 0.4,
+    }
+
+
+/********** OPEN MODELS FOR THE VANILLA JARS/JAMS (PEANUT BUTTER ETC.) ***********/
+
+    model RasVanillaJamFruitOpen_Ground
+    {
+        mesh = WorldItems/RasOpenJarEtiquette,
+        texture = ItemTextures/RasVanillaJamOpenTexture,
+        scale = 0.4,
+    }
+
+    model RasVanillaMarmaladeOpen_Ground
+    {
+        mesh = WorldItems/RasOpenJarEtiquette,
+        texture = ItemTextures/RasVanillaMarmaladeOpenTexture,
+        scale = 0.4,
+    }
+
+    model RasVanillaMarinaraOpen_Ground
+    {
+        mesh = WorldItems/RasOpenJarEtiquette,
+        texture = ItemTextures/RasVanillaMarinaraOpenTexture,
+        scale = 0.48,
+    }
+
+    model RasVanillaPeanutButterOpen_Ground
+    {
+        mesh = WorldItems/RasOpenJarEtiquette,
+        texture = ItemTextures/RasVanillaPeanutButterOpenTexture,
+        scale = 0.48,
+    }
+
+
+
+
+
+/********** MODELS FOR BLOB OF PEANUT BUTTER/MARIANARA ETC. ***********/
+
+
+     model RasBlobRed_Ground
+     {
+        mesh = WorldItems/EggPoached,
+        texture = ItemTextures/RasBlobRedTexture,
+        scale = 0.4,
+     }
+
+     model RasBlobBlue_Ground
+     {
+        mesh = WorldItems/EggPoached,
+        texture = ItemTextures/RasBlobBlueTexture,
+        scale = 0.4,
+     }
+
+     model RasBlobOrange_Ground
+     {
+        mesh = WorldItems/EggPoached,
+        texture = ItemTextures/RasBlobOrangeTexture,
+        scale = 0.4,
+     }
+
+     model RasBlobDarkRed_Ground
+     {
+        mesh = WorldItems/EggPoached,
+        texture = ItemTextures/RasBlobDarkRedTexture,
+        scale = 0.4,
+     }
+
+     model RasBlobBrown_Ground
+     {
+        mesh = WorldItems/EggPoached,
+        texture = ItemTexture/RasBlobBrownTexture,
+        scale = 0.4,
+     }
+
+
+}
+
+
+

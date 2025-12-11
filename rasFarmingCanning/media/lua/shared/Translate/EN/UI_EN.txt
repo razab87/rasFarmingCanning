@@ -1,0 +1,48 @@
+
+UI_EN = {
+
+  UI_rasFarming_InSeason = "Growing season",
+  UI_rasFarming_NotInSeasonWarn = "Not in growing season. Your crops will not grow.",
+  UI_rasFarming_NotInSeason = "Not in growing season.",
+  UI_rasFarming_CanBeHarvested = "Will probably be ready for harvest before growing season ends.",
+  UI_rasFarming_CanNotBeHarvested = "May not be ready for harvest during the growing season.",
+  UI_rasFarming_SeasonOverSoon = "Growing season will end in a few days.",
+  UI_rasFarming_ShouldHarvest = "Consider harvesting.",
+
+  UI_rasFarming_SeasonOverSoonA = "Growing season will",
+  UI_rasFarming_SeasonOverSoonB = "end in a few days.",
+
+
+  UI_rasFarming_Jan = "Jan.",
+  UI_rasFarming_Feb = "Feb.",
+  UI_rasFarming_March = "March",
+  UI_rasFarming_April = "April",
+  UI_rasFarming_May = "May",
+  UI_rasFarming_June = "June",
+  UI_rasFarming_July = "July",
+  UI_rasFarming_Aug = "Aug.",
+  UI_rasFarming_Sep = "Sep.",
+  UI_rasFarming_Oct = "Oct.",
+  UI_rasFarming_Nov = "Nov.",
+  UI_rasFarming_Dec = "Dec.",
+
+  UI_rasFarming_Until = "Use by",
+
+  UI_rasFarming_AddRottenFood = "Add rotten food from jars",
+
+  UI_rasFarming_OpenJar = "Open Jar",
+
+
+  UI_rasFarming_Berry_Ingredient = "Berry x 5",
+  UI_rasFarming_Broccoli_Ingredient = "Broccoli x 5",
+  UI_rasFarming_Tomato_Ingredient = "Tomato x 3",
+  UI_rasFarming_Carrots_Ingredient = "Carrot x 5", 
+  UI_rasFarming_Potato_Ingredient = "Potato x 3",
+  UI_rasFarming_Eggplant_Ingredient = "Eggplant x 3",
+  UI_rasFarming_Leek_Ingredient = "Leek x 3",
+  UI_rasFarming_RedRaddish_Ingredient = "Red Raddish x 10",
+  UI_rasFarming_BellPepper_Ingredient = "Bell Pepper x 5",
+  UI_rasFarming_Cabbage_Ingredient = "Cabbage x 2",
+  UI_rasFarming_Strewberry_Ingredient = "Strawberry x 5"
+
+}

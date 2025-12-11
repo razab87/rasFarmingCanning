@@ -1,0 +1,19 @@
+-- print player's mod data (for testing only)
+
+
+--[[local function outputTest()
+
+       local player = getPlayer()
+       local data = player:getModData()
+
+       print("Farming start date: ", data.RasFarming.Season.StartDate)
+       print("Farming end date: ", data.RasFarming.Season.EndDate)
+       print("")
+       print("Player ID: ", data.RasFarming.PlayerID)
+       print("Game start year: ", data.RasFarming.GameStartDate.Year)
+       print("Game start month: ", data.RasFarming.GameStartDate.Month)
+
+end
+
+
+Events.EveryTenMinutes.Add(outputTest)]]--

@@ -1,0 +1,189 @@
+module Base 
+{
+
+
+
+/**************************************************************************/
+/********* SOME OVERWRITTEN VANILLA JAMS AND JARS *************************/
+/**************************************************************************/
+
+
+	item JamFruit
+	{
+		DisplayName = Fruit Jam,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.5,
+		Icon = JamFruit,
+		FoodType = NoExplicit,
+        CantBeFrozen = TRUE,
+        Packaged = TRUE,
+		UnhappyChange = -10,
+		Calories = 550,
+		Carbohydrates = 130,
+		Lipids = 0,
+		Proteins = 1,
+		WorldStaticModel = JamFruit_Ground,
+	}
+
+
+	item JamMarmalade
+	{
+		DisplayName = Marmalade,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.5,
+		Icon = JamMarmalade,
+		FoodType = NoExplicit,
+        CantBeFrozen = TRUE,
+        Packaged = TRUE,
+		UnhappyChange = -10,
+		Calories = 550,
+		Carbohydrates = 130,
+		Lipids = 0,
+		Proteins = 1,
+		WorldStaticModel = JamMarmalade_Ground,
+	}
+
+    
+    item Marinara
+	{
+		DisplayName = Marinara,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.5,
+		Icon = Marinarai,
+		CantBeFrozen = TRUE,
+		Packaged = TRUE,
+		Calories = 350,
+		Carbohydrates = 55,
+		Lipids = 7.5,
+		Proteins = 10,
+		WorldStaticModel = Marinara,
+		FoodType = NoExplicit,
+	}
+
+    item PeanutButter
+	{
+		DisplayName = Peanut Butter,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.5,
+		Icon = PeanutButter,
+		FoodType = NoExplicit,
+        CantBeFrozen = TRUE,
+		Packaged = TRUE,
+		UnhappyChange = -15,
+		Calories = 2660,
+		Carbohydrates = 128,
+		Lipids = 224,
+		Proteins = 84,
+		WorldStaticModel = PeanutButter,
+	}
+
+
+
+/**************************************************************************/
+/******************************** OPENED VERSIONS *************************/
+/**************************************************************************/
+
+
+
+
+    item RasVanillaFruitJamOpen
+	{
+		DisplayName = Opened Fruit Jam,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.4,
+		Icon = RasVanillaFruitJamOpen,
+		EvolvedRecipe = Sandwich:3;Sandwich Baguette:3;Pancakes:5;Waffles:5;ConeIcecream:5;Cake:15;Toast:3;Bread:15;Oatmeal:3,
+		FoodType = Fruits,
+        Packaged = TRUE,
+		HungerChange = -30,
+		UnhappyChange = -10,
+		Calories = 550,
+		Carbohydrates = 130,
+		Lipids = 0,
+		Proteins = 1,
+        ReplaceOnUse = EmptyJar,
+        DaysFresh = 10,
+        DaysTotallyRotten = 14,
+		WorldStaticModel = RasVanillaJamFruitOpen_Ground,
+        EvolvedRecipeName = Fruit Jam,
+	}
+
+
+    
+	item RasVanillaMarmaladeOpen
+	{
+		DisplayName = Opened Marmalade,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.4,
+		Icon = RasVanillaMarmaladeOpen,
+		EvolvedRecipe = Sandwich:3;Sandwich Baguette:3;Pancakes:5;Waffles:5;ConeIcecream:5;Cake:15;Toast:3;Bread:15;Oatmeal:3,
+		FoodType = Fruits,
+        Packaged = TRUE,
+		HungerChange = -30,
+		UnhappyChange = -10,
+		Calories = 550,
+		Carbohydrates = 130,
+        DaysFresh = 10,
+        DaysTotallyRotten = 14,
+        ReplaceOnUse = EmptyJar,
+		Lipids = 0,
+		Proteins = 1,
+		WorldStaticModel = RasVanillaMarmaladeOpen_Ground,
+        EvolvedRecipeName = Marmalade,
+	}
+
+    
+    item RasVanillaMarinaraOpen
+	{
+		DisplayName = Opened Marinara,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.4,
+		Icon = RasVanillaMarinaraOpen,
+		EvolvedRecipe = Pizza:5;Sandwich:2;Sandwich Baguette:2;Burger:2;RicePot:2;RicePan:2;PastaPot:2;PastaPan:2,
+		Packaged = TRUE,
+		Spice = true,
+		HungerChange = -10,
+		Calories = 350,
+		Carbohydrates = 55,
+		Lipids = 7.5,
+		Proteins = 10,
+        DaysFresh = 10,
+        DaysTotallyRotten = 14,
+        ReplaceOnUse = EmptyJar,
+		WorldStaticModel = RasVanillaMarinaraOpen_Ground,
+		FoodType = Vegetables, 
+        EvolvedRecipeName = Marinara,
+	}
+
+    item RasVanillaPeanutButterOpen
+	{
+		DisplayName = Opened Peanut Butter,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.4,
+		Icon = RasVanillaPeanutButterOpen,
+		EvolvedRecipe = Soup:5;Stir fry Griddle Pan:5;Stir fry:5;Sandwich:5;Sandwich Baguette:5;Toast:5;ConeIcecream:5,
+		FoodType = Nut,
+		Packaged = TRUE,
+		HungerChange = -25,
+		UnhappyChange = -15,
+		Calories = 2660,
+		Carbohydrates = 128,
+		Lipids = 224,
+		Proteins = 84,
+        DaysFresh = 10,
+        ReplaceOnUse = EmptyJar,
+        DaysTotallyRotten = 14,
+		WorldStaticModel = RasVanillaPeanutButterOpen_Ground,
+        EvolvedRecipeName = Peanut Butter,
+	}
+
+
+}

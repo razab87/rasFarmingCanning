@@ -1,0 +1,123 @@
+    
+
+
+module Base 
+{
+
+
+
+
+
+/************************ CONTENT OF THE OPENED VANILLA JAMS/JARS (MARAMLADE, PEANUT BUTTER ETC.) **************************/
+
+
+
+    item RasBlobJamRed
+	{
+		DisplayName = Fruit Jam,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.4,
+		Icon = RasBlobRottenRed,
+		EvolvedRecipe = Sandwich:3;Sandwich Baguette:3;Pancakes:5;Waffles:5;ConeIcecream:5;Cake:15;Toast:3;Bread:15;Oatmeal:3,
+		FoodType = NoExplicit,
+		HungerChange = -30,
+		UnhappyChange = -10,
+		Calories = 157,
+		Carbohydrates = 38,
+		Lipids = 0,
+		Proteins = 0,
+        DaysFresh = 10,
+        DaysTotallyRotten = 14,
+		WorldStaticModel = RasBlobRed_Ground,
+	}
+
+
+    item RasBlobJamBlue
+	{
+		DisplayName = Fruit Jam,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.4,
+		Icon = RasBlobRottenBlue,
+		EvolvedRecipe = Sandwich:3;Sandwich Baguette:3;Pancakes:5;Waffles:5;ConeIcecream:5;Cake:15;Toast:3;Bread:15;Oatmeal:3,
+		FoodType = NoExplicit,
+		HungerChange = -30,
+		UnhappyChange = -10,
+		Calories = 157,
+		Carbohydrates = 38,
+		Lipids = 0,
+		Proteins = 0,
+        DaysFresh = 10,
+        DaysTotallyRotten = 14,
+		WorldStaticModel = RasBlobBlue_Ground,
+	}
+
+    item RasBlobJamOrange
+	{
+		DisplayName = Fruit Jam,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.4,
+		Icon = RasBlobRottenOrange,
+		EvolvedRecipe = Sandwich:3;Sandwich Baguette:3;Pancakes:5;Waffles:5;ConeIcecream:5;Cake:15;Toast:3;Bread:15;Oatmeal:3,
+		FoodType = NoExplicit,
+		HungerChange = -30,
+		UnhappyChange = -10,
+		Calories = 157,
+		Carbohydrates = 38,
+		Lipids = 0,
+		Proteins = 0,
+        DaysFresh = 10,
+        DaysTotallyRotten = 14,
+		WorldStaticModel = RasBlobOrange_Ground,
+	}
+
+
+    
+    item RasBlobMarinara
+	{
+		DisplayName = Marinara,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.4,
+		Icon = RasBlobRottenDarkRed,
+		EvolvedRecipe = Pizza:5;Sandwich:2;Sandwich Baguette:2;Burger:2;RicePot:2;RicePan:2;PastaPot:2;PastaPan:2,
+		Spice = true,
+		HungerChange = -10,
+		Calories = 115,
+		Carbohydrates = 18,
+		Lipids = 2.5,
+		Proteins = 3,
+        DaysFresh = 10,
+        DaysTotallyRotten = 14,
+		WorldStaticModel = RasBlobDarkRed_Ground,
+		FoodType = NoExplicit,
+	}
+
+    item RasBlobPeanutButter
+	{
+		DisplayName = Peanut Butter,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.4,
+		Icon = RasBlobRottenBrown,
+		EvolvedRecipe = Soup:5;Stir fry Griddle Pan:5;Stir fry:5;Sandwich:5;Sandwich Baguette:5;Toast:5;ConeIcecream:5,
+		FoodType = NoExplicit,
+		HungerChange = -25,
+		UnhappyChange = -15,
+		Calories = 886,
+		Carbohydrates = 42,
+		Lipids = 74,
+		Proteins = 28,
+        DaysFresh = 10,
+        DaysTotallyRotten = 14,
+		WorldStaticModel = RasBlobBrown_Ground,
+	}
+
+
+
+
+}
+
+

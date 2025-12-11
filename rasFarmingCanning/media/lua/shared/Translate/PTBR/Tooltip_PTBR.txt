@@ -1,0 +1,10 @@
+
+
+
+Tooltip_PTBR = {
+
+    Tooltip_Jar = "Pode ser usado para conservar alimentos. Requer uma tampa.",
+
+}
+
+

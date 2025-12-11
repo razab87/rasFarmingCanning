@@ -1,0 +1,35 @@
+    
+
+
+Recipes_DE = {
+
+
+    Recipe_Make_Jar_of_Bell_Peppers = "Einmachglas mit Paprika zubereiten",
+    Recipe_Make_Jar_of_Broccoli = "Einmachglas mit Brokkoli zubereiten",
+    Recipe_Make_Jar_of_Cabbage = "Einmachglas mit Kohl zubereiten",
+    Recipe_Make_Jar_of_Carrots = "Einmachglas mit Karotten zubereiten",
+    Recipe_Make_Jar_of_Eggplants = "Einmachglas mit Auberginen zubereiten",
+    Recipe_Make_Jar_of_Leeks = "Einmachglas mit Lauch zubereiten",
+    Recipe_Make_Jar_of_Potatoes = "Einmachglas mit Kartoffeln zubereiten",
+    Recipe_Make_Jar_of_Red_Radishes = "Einmachglas mit Radieschen zubereiten",
+    Recipe_Make_Jar_of_Tomatoes = "Einmachglas mit Tomaten zubereiten",
+
+    Recipe_Make_Jar_of_Pickled_Bell_Peppers = "Paprika einlegen",
+    Recipe_Make_Jar_of_Pickled_Broccoli = "Brokkoli einlegen",
+    Recipe_Make_Jar_of_Pickled_Cabbage = "Kohl einlegen",
+    Recipe_Make_Jar_of_Pickled_Carrots = "Karotten einlegen",
+    Recipe_Make_Jar_of_Pickled_Eggplants = "Auberginen einlegen",
+    Recipe_Make_Jar_of_Pickled_Leeks = "Lauch einlegen",
+    Recipe_Make_Jar_of_Pickled_Potatoes = "Kartoffeln einlegen",
+    Recipe_Make_Jar_of_Pickled_Radishes = "Radieschen einlegen",
+    Recipe_Make_Jar_of_Pickled_Tomatoes = "Tomaten einlegen",
+
+    Recipe_Make_Strawberry_Jam = "Erdbeermarmelade zubereiten",
+    Recipe_Make_Berry_Jam = "Beerenmarmelade zubereiten",
+
+
+}
+
+
+
+

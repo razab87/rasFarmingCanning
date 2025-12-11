@@ -1,0 +1,483 @@
+module Base 
+{
+
+
+
+
+/*************************************************************************************************/
+/*************************************** PICKLED FOOD ********************************************/
+/*************************************************************************************************/
+
+
+    item RasCannedPickledBellPepper
+	{
+		DisplayName = Jar of Pickled Bell Peppers,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.5,
+		Icon = JarBrown,
+		DaysFresh = 60,
+		DaysTotallyRotten = 90,
+        CantBeFrozen = TRUE,
+		BoredomChange = -10,
+		Calories = 150,
+		Carbohydrates = 35,
+		Lipids = 0,
+		Proteins = 5,
+		WorldStaticModel = JarFoodBellPeppers_Ground,
+        IsCookable	        =	    TRUE,
+        MinutesToBurn	    =	    1000000000,
+        MinutesToCook	    =	    60,
+        OnCooked            = CannedFood_OnCooked,
+	} 
+
+	item RasCannedPickledBellPepperOpen
+	{
+		DisplayName = Opened Jar of Pickled Bell Peppers,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.4,
+		Icon = RasJarBrownOpen,
+		EvolvedRecipe = Pizza:8;Omelette:4;Soup:8;Pie:8;Stir fry Griddle Pan:8;Stir fry:8;Sandwich:2;Sandwich Baguette:2;Burger:2;Salad:4;Roasted Vegetables:8;RicePot:8;RicePan:8;PastaPot:8;PastaPan:8;Taco:2;Burrito:4,
+		FoodType = Vegetables,
+		DaysFresh = 10,
+		DaysTotallyRotten = 14,
+		HungerChange = -24,
+        BoredomChange = -10,
+		Calories = 150,
+		Carbohydrates = 35,
+		Lipids = 0,
+		Proteins = 5,
+		ReplaceOnUse = EmptyJar,
+		WorldStaticModel = RasJarBellPeppersOpen_Ground,
+		EvolvedRecipeName = Pepper,
+	}
+	
+
+
+
+
+    item RasCannedPickledBroccoli
+	{
+		DisplayName = Jar of Pickled Broccoli,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.5,
+		Icon = JarGreen,
+		DaysFresh = 60,
+		DaysTotallyRotten = 90,
+        CantBeFrozen = TRUE,
+        BoredomChange = -10,
+		Calories = 55,
+		Carbohydrates = 10.3,
+		Lipids = 5.5,
+		Proteins = 4.35,
+		WorldStaticModel = JarFoodBroccoli_Ground,
+        IsCookable	        =	    TRUE,
+        MinutesToBurn	    =	    1000000000,
+        MinutesToCook	    =	    60,
+        OnCooked            = CannedFood_OnCooked,
+	}
+
+
+
+    item RasCannedPickledBroccoliOpen
+	{
+		DisplayName = Opened Jar of Pickled Broccoli,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.4,
+		Icon = RasJarGreenOpen,
+		EvolvedRecipe = Pizza:9;Omelette:9;Soup:9;Stew:9;Pie:9;Stir fry Griddle Pan:9;Stir fry:9;Salad:9;Roasted Vegetables:9;RicePot:9;RicePan:9;PastaPot:9;PastaPan:9,
+		FoodType = Vegetables,
+		DaysFresh = 10,
+		DaysTotallyRotten = 14,
+		HungerChange = -27,
+        BoredomChange = -10,
+		Calories = 55,
+		Carbohydrates = 10.3,
+		Lipids = 5.5,
+		Proteins = 4.35,
+		ReplaceOnUse = EmptyJar,
+		WorldStaticModel = RasJarBroccoliOpen_Ground,
+        EvolvedRecipeName = Broccoli,
+	}
+	
+
+
+
+
+
+	item RasCannedPickledCabbage
+	{
+	    DisplayCategory = Food,
+	    Type = Food,
+	    DisplayName	= Jar of Pickled Cabbage,
+	    Icon = JarGreen,
+	    Weight = 0.5,
+	    DaysFresh =	60,
+	    DaysTotallyRotten =	 90,
+        CantBeFrozen = TRUE,
+        Carbohydrates = 82.82,
+        Proteins = 18.28,
+        Lipids = 1.42,
+        Calories = 356,
+        WorldStaticModel = JarFoodCabbage_Ground,
+        StaticModel = CanClosed,
+        BoredomChange = -10,
+        IsCookable	        =	    TRUE,
+        MinutesToBurn	    =	    1000000000,
+        MinutesToCook	    =	    60,
+        OnCooked            = CannedFood_OnCooked,
+	}
+
+    item RasCannedPickledCabbageOpen
+	{
+	    DisplayCategory = Food,
+	    Type = Food,
+	    DisplayName	= Opened Jar of Pickled Cabbage,
+	    Icon = RasJarGreenOpen,
+	    Weight = 0.4,
+	    HungerChange = -36,
+        BoredomChange = -10,
+	    DaysFresh =	10,
+	    DaysTotallyRotten =	 14,
+	    EvolvedRecipe = Soup:12;Stew:12;Stir fry Griddle Pan:12;Stir fry:12;Sandwich:6;Sandwich Baguette:6;Burger:6;Salad:12;Roasted Vegetables:12;Taco:6;Burrito:6,
+	    FoodType = Vegetables,
+        Carbohydrates = 82.82,
+        Proteins = 18.28,
+        Lipids = 1.42,
+        Calories = 356,
+        ReplaceOnUse = EmptyJar,
+        WorldStaticModel = RasJarCabbageOpen_Ground,
+        EvolvedRecipeName = Cabbage,
+	}
+
+
+
+
+
+
+
+
+
+	
+	item RasCannedPickledCarrots
+	{
+		DisplayName = Jar of Pickled Carrots,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.5,
+		Icon = JarBrown,
+		DaysFresh = 60,
+		DaysTotallyRotten = 90,
+        CantBeFrozen = TRUE,
+		Calories = 125,
+		Carbohydrates = 29.2,
+		Lipids = 0.75,
+		Proteins = 2.85,
+		WorldStaticModel = JarFoodCarrots_Ground,
+        StaticModel = CanClosed,
+        BoredomChange = -10,
+        IsCookable	        =	    TRUE,
+        MinutesToBurn	    =	    1000000000,
+        MinutesToCook	    =	    60,
+        OnCooked            = CannedFood_OnCooked,
+	}
+
+    item RasCannedPickledCarrotsOpen
+	{
+		DisplayName = Opened Jar of Pickled Carrots,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.4,
+		Icon = RasJarBrownOpen,
+		EvolvedRecipe = Soup:8;Stew:8;Pie:8;Stir fry Griddle Pan:8;Stir fry:8;Sandwich:4;Sandwich Baguette:4;Salad:4;Roasted Vegetables:8;RicePot:8;RicePan:8;PastaPot:8;PastaPan:8,
+		FoodType = Vegetables,
+		DaysFresh = 10,
+		DaysTotallyRotten = 14,
+		HungerChange = -24,
+        BoredomChange = -10,
+		Calories = 125,
+		Carbohydrates = 29.2,
+		Lipids = 0.75,
+		Proteins = 2.85,
+		ReplaceOnUse = EmptyJar,
+		WorldStaticModel = RasJarCarrotsOpen_Ground,
+		EvolvedRecipeName = Carrot,
+	}
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+	item RasCannedPickledEggplant
+	{
+		DisplayName = Jar of Pickled Eggplants,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.5,
+		Icon = JamPurple,
+		DaysFresh = 60,
+		DaysTotallyRotten = 90,
+        CantBeFrozen = TRUE,
+		Calories = 342,
+		Carbohydrates = 80.79,
+		Lipids = 2.46,
+		Proteins = 13.47,
+		WorldStaticModel = JarFoodEggplants_Ground,
+        StaticModel = CanClosed,
+        BoredomChange = -10,
+        IsCookable	        =	    TRUE,
+        MinutesToBurn	    =	    1000000000,
+        MinutesToCook	    =	    60,
+        OnCooked            = CannedFood_OnCooked,
+	}
+
+    item RasCannedPickledEggplantOpen
+	{
+		DisplayName = Opened Jar of Pickled Eggplants,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.4,
+		Icon = RasJarPurpleOpen,
+		EvolvedRecipe = Pizza:8;Omelette:8;Soup:16;Stew:16;Pie:16;Stir fry Griddle Pan:16;Stir fry:16;Burger:8;Sandwich:4;Sandwich Baguette:4;Salad:8;Roasted Vegetables:16;RicePot:16;RicePan:16;PastaPot:16;PastaPan:16,
+		FoodType = Vegetables,
+		DaysFresh = 10,
+		DaysTotallyRotten = 14,
+		HungerChange = -32,
+        BoredomChange = -10,
+		Calories = 342,
+		Carbohydrates = 80.79,
+		Lipids = 2.46,
+		Proteins = 13.47,
+		ReplaceOnUse = EmptyJar,
+		WorldStaticModel = RasJarEggPlantsOpen_Ground,
+        EvolvedRecipeName = Eggplant,
+	}
+	
+
+
+
+
+
+
+
+
+
+	item RasCannedPickledLeek
+	{
+		DisplayName = Jar of Pickled Leeks,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.5,
+		Icon = JarWhite,
+		DaysFresh = 60,
+		DaysTotallyRotten = 90,
+        CantBeFrozen = TRUE,
+		Calories = 162,
+		Carbohydrates = 37.77,
+		Lipids = 0.81,
+		Proteins = 4.02,
+		WorldStaticModel = JarFoodLeeks_Ground,
+        StaticModel = CanClosed,
+        BoredomChange = -10,
+        IsCookable	        =	    TRUE,
+        MinutesToBurn	    =	    1000000000,
+        MinutesToCook	    =	    60,
+        OnCooked            = CannedFood_OnCooked,
+	}
+  
+    
+	item RasCannedPickledLeekOpen
+	{
+		DisplayName = Opened Jar of Pickled Leeks,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.4,
+		Icon = RasJarWhiteOpen,
+		EvolvedRecipe = Omelette:6;Soup:12;Stew:12;Pie:12;Stir fry Griddle Pan:12;Stir fry:12;Salad:6;Roasted Vegetables:12;RicePot:12;RicePan:12;PastaPot:12;PastaPan:12,
+		FoodType = Vegetables,
+		DaysFresh = 10,
+		DaysTotallyRotten = 14,
+		HungerChange = -24,
+        BoredomChange = -10,
+		Calories = 162,
+		Carbohydrates = 37.77,
+		Lipids = 0.81,
+		Proteins = 4.02,
+		ReplaceOnUse = EmptyJar,
+		WorldStaticModel = RasJarLeeksOpen_Ground,
+        EvolvedRecipeName = Leek,
+	}
+	
+
+
+
+
+
+
+	item RasCannedPickledPotato
+	{
+	    DisplayCategory = Food,
+	    Type = Food,
+	    DisplayName	= Jar of Pickled Potatoes,
+	    Icon = JarWhite,
+	    Weight = 0.5,
+	    DaysFresh = 60,
+	    DaysTotallyRotten =	90,
+        CantBeFrozen = TRUE,
+        Carbohydrates = 43.56,
+        Proteins = 8.64,
+        Lipids = 0.45,
+        Calories = 210,
+        WorldStaticModel = JarFoodPotatoes_Ground,
+        StaticModel = CanClosed,
+        BoredomChange = -10,
+        IsCookable	        =	    TRUE,
+        MinutesToBurn	    =	    1000000000,
+        MinutesToCook	    =	    60,
+        OnCooked            = CannedFood_OnCooked,
+	}
+
+    item RasCannedPickledPotatoOpen
+	{
+	    DisplayCategory = Food,
+	    Type = Food,
+	    DisplayName	= Opened Jar of Pickled Potatoes,
+	    Icon = RasJarWhiteOpen,
+	    Weight = 0.4,
+	    HungerChange = -36,
+        BoredomChange = -10,
+	    DaysFresh = 24,
+	    DaysTotallyRotten =	32,
+        EvolvedRecipe = Omelette:9;Soup:18;Stew:18;Pie:18;Stir fry Griddle Pan:18;Stir fry:18;Salad:9;Roasted Vegetables:18,
+        FoodType = Vegetables,
+        Carbohydrates = 43.56,
+        Proteins = 8.64,
+        Lipids = 0.45,
+        Calories = 210,
+        ReplaceOnUse = EmptyJar,
+        WorldStaticModel = RasJarPotatoesOpen_Ground,
+        EvolvedRecipeName = Potato,
+	}
+	
+
+
+
+
+
+
+
+	item RasCannedPickledRadish
+	{
+	    DisplayCategory = Food,
+	    Type = Food,
+	    DisplayName	= Jar of Pickled Radishes,
+	    Icon = JarBrown,
+	    Weight = 0.5,
+	    DaysFresh =	60,
+	    DaysTotallyRotten =	90,
+        CantBeFrozen = TRUE,
+        Carbohydrates = 1.5,
+        Proteins = 0,
+        Lipids = 0,
+        Calories = 10,
+        WorldStaticModel = JarFoodRadish_Ground,
+        StaticModel = CanClosed,
+        BoredomChange = -10,
+        IsCookable	        =	    TRUE,
+        MinutesToBurn	    =	    1000000000,
+        MinutesToCook	    =	    60,
+        OnCooked            = CannedFood_OnCooked,
+	}
+
+    item RasCannedPickledRadishOpen
+	{
+	    DisplayCategory = Food,
+	    Type = Food,
+	    DisplayName	= Opened Jar of Pickled Radishes,
+	    Icon = RasJarBrownOpen,
+	    Weight = 0.4,
+        HungerChange = -25,
+        BoredomChange = -10,
+	    DaysFresh =	10,
+	    DaysTotallyRotten =	14,
+	    EvolvedRecipe = Soup:10;Stew:10;Stir fry Griddle Pan:10;Stir fry:10;Burger:5;Salad:5;Roasted Vegetables:10,
+	    FoodType = Vegetables,
+        Carbohydrates = 1.5,
+        Proteins = 0,
+        Lipids = 0,
+        Calories = 10,
+        ReplaceOnUse = EmptyJar,
+        WorldStaticModel = RasJarRadishOpen_Ground,
+        EvolvedRecipeName = Radish,
+	}
+	
+
+
+
+
+
+
+
+	item RasCannedPickledTomato
+	{
+	    DisplayCategory = Food,
+	    Type = Food,
+	    DisplayName	= Jar of Pickled Tomatoes,
+	    Icon = JarBrown,
+	    Weight = 0.5,
+	    DaysFresh =	60,
+	    DaysTotallyRotten =	90,
+        CantBeFrozen = TRUE,
+        Carbohydrates = 10.59,
+        Proteins = 3.87,
+        Lipids = 0.63,
+        Calories = 42,
+        WorldStaticModel = JarFoodTomatoes_Ground,
+        StaticModel = CanClosed,
+        BoredomChange = -10,
+        IsCookable	        =	    TRUE,
+        MinutesToBurn	    =	    1000000000,
+        MinutesToCook	    =	    60,
+        OnCooked            = CannedFood_OnCooked,
+	}
+
+    item RasCannedPickledTomatoOpen
+	{
+	    DisplayCategory = Food,
+	    Type = Food,
+	    DisplayName	= Opened Jar of Pickled Tomatoes,
+	    Icon = RasJarBrownOpen,
+	    Weight = 0.4,
+	    HungerChange = -24,
+        BoredomChange = -10,
+	    DaysFresh =	10,
+	    DaysTotallyRotten =	14,
+	    EvolvedRecipe = Pizza:12;Omelette:6;Soup:12;Stew:12;Pie:12;Stir fry Griddle Pan:12;Stir fry:12;Sandwich:6;Sandwich Baguette:6;Burger:6;Salad:6;Roasted Vegetables:12;RicePot:12;RicePan:12;PastaPot:12;PastaPan:12;Taco:6;Burrito:6,
+	    FoodType = Vegetables,
+        Carbohydrates = 10.59,
+        Proteins = 3.87,
+        Lipids = 0.63,
+        Calories = 42,
+        ReplaceOnUse = EmptyJar,
+        WorldStaticModel = RasJarTomatoesOpen_Ground,
+        EvolvedRecipeName = Tomato,
+	}
+
+}
+
+
+
+
+

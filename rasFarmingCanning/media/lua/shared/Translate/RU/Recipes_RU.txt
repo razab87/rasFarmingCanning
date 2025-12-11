@@ -1,0 +1,32 @@
+    
+
+
+Recipes_RU = {
+
+Recipe_Make_Jar_of_Bell_Peppers = "Положить болгарский перец в банку",
+Recipe_Make_Jar_of_Broccoli = "Положить брокколи в банку",
+Recipe_Make_Jar_of_Cabbage = "Положить капусту в банку",
+Recipe_Make_Jar_of_Carrots = "Положить морковь в банку",
+Recipe_Make_Jar_of_Eggplants = "Положить баклажаны в банку",
+Recipe_Make_Jar_of_Leeks = "Положить лук-порей в банку",
+Recipe_Make_Jar_of_Potatoes = "Положить картофель в банку ",
+Recipe_Make_Jar_of_Red_Radishes = "Положить редиску в банку",
+Recipe_Make_Jar_of_Tomatoes = "Положить помидоры в банку",
+Recipe_Make_Jar_of_Pickled_Bell_Pepper = "Замариновать болгарский перец",
+Recipe_Make_Jar_of_Pickled_Broccoli = "Замариновать брокколи",
+Recipe_Make_Jar_of_Pickled_Cabbage = "Замариновать капусту",
+Recipe_Make_Jar_of_Pickled_Carrots = "Замариновать морковь",
+Recipe_Make_Jar_of_Pickled_Eggplants = "Замариновать баклажаны",
+Recipe_Make_Jar_of_Pickled_Leeks = "Замариновать лук-порей",
+Recipe_Make_Jar_of_Pickled_Potatoes = "Замариновать картофель",
+Recipe_Make_Jar_of_Pickled_Radishes = "Замариновать редис",
+Recipe_Make_Jar_of_Pickled_Tomatoes = "Замариновать помидоры",
+Recipe_Make_Strawberry_Jam = "Приготовить клубничный джем",
+Recipe_Make_Berry_Jam = "Приготовить ягодный джем",
+Recipe_Empty_Baking_Tray = "Очистить противень",
+
+}
+
+
+
+

@@ -1,0 +1,207 @@
+
+
+module Base 
+{
+
+
+/*********** HIDDEN BERRIES *****************/
+
+    item RasHiddenBerry
+	{
+		DisplayCategory = Food,
+		Weight	=	0,
+		Icon	=	BerryGeneric1,
+        FoodType    =   Fruits,
+        DaysTotallyRotten	=	10,
+        DaysFresh	=	6,
+        HungerChange = 0,
+        Calories = 0,
+		Carbohydrates = 0,
+	    Lipids = 0,
+	    Proteins = 0,
+        WorldRender = FALSE,
+	}
+
+    item RasHiddenStrewberrie
+	{
+	    DisplayCategory = Food,
+		Icon				=		BerryStraw,
+		Weight				=		0,
+		HungerChange 		=		-5,
+		ThirstChange		=		-5,
+		UnhappyChange 		= 		-10,
+		DaysFresh 			=		2,
+		DaysTotallyRotten 	=	 	5,
+		FoodType    =   Berry,
+		ThirstChange	=	-1,
+        Carbohydrates = 0.92,
+        Proteins = 0.08,
+        Lipids = 0.04,
+        Calories = 4,
+        WorldRender = FALSE,
+	}
+
+/************* HIDDEN VEGETABLES *************************/
+
+    item RasHiddenRedRadish
+	{
+	    DisplayCategory = Food,
+		Icon				=		Radish,
+		Weight				=		0,
+		HungerChange 		=		-3,
+		DaysFresh 			=		3,
+		DaysTotallyRotten 	=	 	7,
+		ThirstChange	=	-1,
+		FoodType    =   Vegetables,
+        Carbohydrates = 0.15,
+        Proteins = 0,
+        Lipids = 0,
+        Calories = 1,
+        WorldRender = FALSE,
+	}
+
+    item RasHiddenTomato
+	{
+	    DisplayCategory = Food,
+		Icon				=		Tomato,
+		Weight				=		0,
+		HungerChange 		=		-12,
+		ThirstChange		=		-15,
+		DaysFresh 			=		4,
+		DaysTotallyRotten 	=	 	12,
+		ThirstChange	=	-8,
+		FoodType    =   Vegetables,
+        Carbohydrates = 3.53,
+        Proteins = 1.29,
+        Lipids = 0.21,
+        Calories = 14,
+        WorldRender = FALSE,
+	}
+
+    item RasHiddenPotato
+	{
+	    DisplayCategory = Food,
+		Icon				=		Potato,
+		Weight				=		0,
+		HungerChange 		=		-18,
+		DaysFresh 			=		14,
+		DaysTotallyRotten 	=	 	28,
+        ThirstChange	=	-7,
+        FoodType    =   Vegetables,
+        Carbohydrates = 14.52,
+        Proteins = 2.88,
+        Lipids = 0.15,
+        Calories = 70,
+        WorldRender = FALSE,
+	}
+
+    item RasHiddenCabbage
+	{
+	    DisplayCategory = Food,
+		Icon				=		Cabbage,
+		Weight				=		0,
+		HungerChange 		=		-24,
+		ThirstChange		=		-15,
+		DaysFresh 			=		2,
+		DaysTotallyRotten 	=	 	4,
+		ThirstChange	=	-10,
+		FoodType    =   Vegetables,
+        Carbohydrates = 41.41,
+        Proteins = 9.14,
+        Lipids = 0.71,
+        Calories = 178,
+        WorldRender = FALSE,
+	}
+
+    item RasHiddenEggplant
+	{
+		DisplayCategory = Food,
+		Weight = 0,
+		Icon = Eggplant,
+		FoodType = Vegetables,
+		DaysFresh = 5,
+		DaysTotallyRotten = 8,
+		HungerChange = -16,
+		ThirstChange = -9,
+		Calories = 114,
+		Carbohydrates = 26.93,
+		Lipids = 0.82,
+		Proteins = 4.49,
+		WorldRender = FALSE,
+	}
+
+	item RasHiddenLeek
+	{
+		DisplayCategory = Food,
+		Weight = 0,
+		Icon = Leek,
+		FoodType = Vegetables,
+		DaysFresh = 5,
+		DaysTotallyRotten = 8,
+		HungerChange = -12,
+		ThirstChange = -5,
+		Calories = 54,
+		Carbohydrates = 12.59,
+		Lipids = 0.27,
+		Proteins = 1.34,
+		WorldRender = FALSE,
+	}
+
+    item RasHiddenBellPepper
+	{
+		DisplayCategory = Food,
+		Weight = 0,
+		Icon = BellPepper,
+		FoodType = Vegetables,
+		DaysFresh = 5,
+		DaysTotallyRotten = 8,
+		HungerChange = -8,
+		ThirstChange = -2,
+		Calories = 30,
+		Carbohydrates = 7,
+		Lipids = 0,
+		Proteins = 1,
+		WorldRender = FALSE,
+	}
+
+    item RasHiddenCarrots
+	{
+		DisplayCategory = Food,
+		Weight = 0,
+		Icon = Carrots,
+		FoodType = Vegetables,
+		DaysFresh = 6,
+		DaysTotallyRotten = 8,
+		HungerChange = -8,
+		ThirstChange = -4,
+		Calories = 25,
+		Carbohydrates = 5.84,
+		Lipids = 0.15,
+		Proteins = 0.57,
+        WorldRender = FALSE,		
+	}
+
+	item RasHiddenBroccoli
+	{
+		DisplayCategory = Food,
+		Weight = 0,
+		Icon = Broccoli,
+		FoodType = Vegetables,
+		DaysFresh = 4,
+		DaysTotallyRotten = 6,
+		HungerChange = -9,
+		ThirstChange = -4,
+		Calories = 11,
+		Carbohydrates = 2.06,
+		Lipids = 0.11,
+		Proteins = 0.87,
+        WorldRender = FALSE,
+	}
+
+
+
+}
+
+
+
+

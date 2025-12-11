@@ -1,0 +1,143 @@
+
+
+
+ItemName_DE = {
+
+
+    ItemName_Base.RasCannedBellPepper = "Einmachglas mit Paprika", 
+    ItemName_Base.RasCannedBroccoli = "Einmachglas mit Brokkoli",
+    ItemName_Base.RasCannedCabbage = "Einmachglas mit Kohl",
+    ItemName_Base.RasCannedCarrots = "Einmachglas mit Karotten",
+    ItemName_Base.RasCannedEggplant = "Einmachglas mit Auberginen",
+    ItemName_Base.RasCannedLeek = "Einmachglas mit Lauch",
+    ItemName_Base.RasCannedPotato = "Einmachglas mit Kartoffeln",
+    ItemName_Base.RasCannedRedRadish = "Einmachglas mit Radieschen",
+    ItemName_Base.RasCannedTomato = "Einmachglas mit Tomaten",
+
+    ItemName_Base.RasCannedBellPepperOpen = "Offenes Glas Paprika", 
+    ItemName_Base.RasCannedBroccoliOpen = "Offenes Glas Brokkoli",
+    ItemName_Base.RasCannedCabbageOpen = "Offenes Glas Kohl",
+    ItemName_Base.RasCannedCarrotsOpen = "Offenes Glas Karotten",
+    ItemName_Base.RasCannedEggplantOpen = "Offenes Glas Auberginen",
+    ItemName_Base.RasCannedLeekOpen = "Offenes Glas Lauch",
+    ItemName_Base.RasCannedPotatoOpen = "Offenes Glas Kartoffeln",
+    ItemName_Base.RasCannedRedRadishOpen = "Offenes Glas Radieschen",
+    ItemName_Base.RasCannedTomatoOpen = "Offenes Glas Tomaten",
+
+
+    ItemName_Base.RasCannedPickledBellPepper = "Eingelegte Paprika", 
+    ItemName_Base.RasCannedPickledBroccoli = "Eingelegter Brokkoli",
+    ItemName_Base.RasCannedPickledCabbage = "Eingelegter Kohl",
+    ItemName_Base.RasCannedPickledCarrots = "Eingelegte Karotten",
+    ItemName_Base.RasCannedPickledEggplant = "Eingelegte Auberginen",
+    ItemName_Base.RasCannedPickledLeek = "Eingelegter Lauch",
+    ItemName_Base.RasCannedPickledPotato = "Eingelegte Kartoffeln",
+    ItemName_Base.RasCannedPickledRadish = "Eingelegte Radieschen",
+    ItemName_Base.RasCannedPickledTomato = "Eingelegte Tomaten",
+
+    ItemName_Base.RasCannedPickledBellPepperOpen = "Offenes Glas eingelegte Paprika", 
+    ItemName_Base.RasCannedPickledBroccoliOpen = "Offenes Glas eingelegter Brokkoli",
+    ItemName_Base.RasCannedPickledCabbageOpen = "Offenes Glas eingelegter Kohl",
+    ItemName_Base.RasCannedPickledCarrotsOpen = "Offenes Glas eingelegte Karotten",
+    ItemName_Base.RasCannedPickledEggplantOpen = "Offenes Glas eingelegte Auberginen",
+    ItemName_Base.RasCannedPickledLeekOpen = "Offenes Glas eingelegter Lauch",
+    ItemName_Base.RasCannedPickledPotatoOpen = "Offenes Glas eingelegte Kartoffeln",
+    ItemName_Base.RasCannedPickledRadishOpen = "Offenes Glas eingelegte Radieschen",
+    ItemName_Base.RasCannedPickledTomatoOpen = "Offenes Glas eingelegte Tomaten",
+
+    ItemName_Base.RasStrawberryJam = "Erdbeermarmelade",
+    ItemName_Base.RasRedBerryJam = "Beerenmarmelade",
+    ItemName_Base.RasBlueBerryJam = "Beerenmarmelade",
+    ItemName_Base.RasOrangeBerryJam = "Beerenmarmelade",
+
+    ItemName_Base.RasStrawberryJamOpen = "Offenes Glas Erdbeermarmelade",
+    ItemName_Base.RasRedBerryJamOpen = "Offenes Glas Beerenmarmelade",
+    ItemName_Base.RasBlueBerryJamOpen = "Offenes Glas Beerenmarmelade",
+    ItemName_Base.RasOrangeBerryJamOpen = "Offenes Glas Beerenmarmelade",
+
+    ItemName_Base.JamFruit = "Fruchtaufstrich",
+    ItemName_Base.RasVanillaFruitJamOpen = "Offenes Glas Fruchtaufstrich",
+    ItemName_Base.RasVanillaMarmaladeOpen = "Offenes Glas Marmelade",
+    ItemName_Base.RasVanillaMarinaraOpen = "Offenes Glas Marinara",
+    ItemName_Base.RasVanillaPeanutButterOpen = "Offenes Glas Erdnussbutter",
+
+
+
+/***** NAMEN FÜR ITEMS IM KOMPOST *****/
+    ItemName_Base.RasBlobJamRed = "Fruchtaufstrich",
+    ItemName_Base.RasBlobJamBlue = "Fruchtaufstrich",
+    ItemName_Base.RasBlobJamOrange = "Fruchtaufstrich",
+    ItemName_Base.RasBlobMarinara = "Marinara",
+    ItemName_Base.RasBlobPeanutButter = "Erdnussbutter",
+
+
+
+/**** NAMEN FÜR KÖDER ITEMS ******/
+    ItemName_Base.RasBellPepperBait = "Stückchen Paprika",
+    ItemName_Base.RasBellPepperBaitRotten = "Stückchen Paprika",
+    ItemName_Base.RasBroccoliBait = "Stückchen Brokkoli",
+    ItemName_Base.RasBroccoliBaitRotten = "Stückchen Brokkoli",
+    ItemName_Base.RasCabbageBait = "Stückchen Kohl",
+    ItemName_Base.RasCabbageBaitRotten = "Stückchen Kohl",
+    ItemName_Base.RasCarrotsBait = "Stückchen Karotte",
+    ItemName_Base.RasCarrotsBaitRotten = "Stückchen Karotte",
+    ItemName_Base.RasEggplantBait = "Stückchen Aubergine",
+    ItemName_Base.RasEggplantBaitRotten = "Stückchen Aubergine",
+    ItemName_Base.RasLeeksBait = "Stückchen Lauch",
+    ItemName_Base.RasLeeksBaitRotten = "Stückchen Lauch",
+	ItemName_Base.RasPotatoBait = "Stückchen Kartoffel",
+    ItemName_Base.RasPotatoBaitRotten = "Stückchen Kartoffel",
+    ItemName_Base.RasRadishBait = "Stückchen Radieschen",
+    ItemName_Base.RasRadishBaitRotten = "Stückchen Radieschen",
+    ItemName_Base.RasTomatoBait = "Stückchen Tomate",
+    ItemName_Base.RasTomatoBaitRotten = "Stückchen Tomate",
+
+    ItemName_Base.RasPickledBellPepperBait = "Stückchen eingelegte Paprika",
+    ItemName_Base.RasPickledBellPepperBaitRotten = "Stückchen eingelegte  Paprika",
+    ItemName_Base.RasPickledBroccoliBait = "Stückchen eingelegter Brokkoli",
+    ItemName_Base.RasPickledBroccoliBaitRotten = "Stückchen eingelegter Brokkoli",
+    ItemName_Base.RasPickledCabbageBait = "Stückchen eingelegter Kohl",
+    ItemName_Base.RasPickledCabbageBaitRotten = "Stückchen eingelegter Kohl",
+    ItemName_Base.RasPickledCarrotsBait = "Stückchen eingelegte Karotte",
+    ItemName_Base.RasPickledCarrotsBaitRotten = "Stückchen eingelegte Karotte",
+    ItemName_Base.RasPickledEggplantBait = "Stückchen eingelegte Aubergine",
+    ItemName_Base.RasPickledEggplantBaitRotten = "Stückchen eingelegte Aubergine",
+    ItemName_Base.RasPickledLeeksBait = "Stückchen eingelegter Lauch",
+    ItemName_Base.RasPickledLeeksBaitRotten = "Stückchen eingelegter Lauch",
+	ItemName_Base.RasPickledPotatoBait = "Stückchen eingelegte Kartoffel",
+    ItemName_Base.RasPickledPotatoBaitRotten = "Stückchen eingelegte Kartoffel",
+    ItemName_Base.RasPickledRadishBait = "Stückchen eingelegtes Radieschen",
+    ItemName_Base.RasPickledRadishBaitRotten = "Stückchen eingelegtes Radieschen",
+    ItemName_Base.RasPickledTomatoBait = "Stückchen eingelegte Tomate",
+    ItemName_Base.RasPickledTomatoBaitRotten = "Stückchen eingelegte Tomate",
+
+    ItemName_Base.RasJamBaitRed = "Klecks Fruchtaufstrich",
+    ItemName_Base.RasJamBaitRotten = "Klecks Fruchtaufstrich",
+    ItemName_Base.RasJamBaitBlue = "Klecks Fruchtaufstrich",
+    ItemName_Base.RasJamBaitBlueRotten = "Klecks Fruchtaufstrich",
+    ItemName_Base.RasJamBaitOrange = "Klecks Fruchtaufstrich",
+    ItemName_Base.RasJamBaitOrangeRotten = "Klecks Fruchtaufstrich",
+    ItemName_Base.RasMarinaraBait = "Klecks Marinara", 
+    ItemName_Base.RasMarinaraBaitRotten = "Klecks Marinara", 
+    ItemName_Base.RasPeanutButterBait = "Klecks Erdnussbutter", 
+    ItemName_Base.RasPeanutButterBaitRotten = "Klecks Erdnussbutter",
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

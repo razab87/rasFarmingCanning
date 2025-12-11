@@ -1,0 +1,48 @@
+
+
+UI_PTBR = {
+
+  UI_rasFarming_InSeason = "Estação de Crescimento"
+  UI_rasFarming_NotInSeasonWarn = "Fora da Estação de Crescimento. As plantas não crescerão."
+  UI_rasFarming_NotInSeason = "Fora da Estação de Crescimento."
+  UI_rasFarming_CanBeHarvested = "Provavelmente pode ser colhida antes do final da Estação de Crescimento."
+  UI_rasFarming_CanNotBeHarvested = "Pode não ser mais colhido durante a Estação de Crescimento."
+  UI_rasFarming_SeasonOverSoon = "A Estação de Crescimento termina em alguns dias."
+  UI_rasFarming_ShouldHarvest = "Devo colher em breve."
+
+  UI_rasFarming_SeasonOverSoonA = "Estação de Crescimento termina"
+  UI_rasFarming_SeasonOverSoonB = "em alguns dias."
+
+
+  UI_rasFarming_Jan = "jan."
+  UI_rasFarming_Feb = "fev."
+  UI_rasFarming_March = "mar."
+  UI_rasFarming_April = "abr."
+  UI_rasFarming_May = "maio"
+  UI_rasFarming_June = "jun."
+  UI_rasFarming_July = "Jul."
+  UI_rasFarming_Aug = "ago."
+  UI_rasFarming_Sep = "set."
+  UI_rasFarming_Oct = "out."
+  UI_rasFarming_Nov = "nov."
+  UI_rasFarming_Dec = "dez."
+
+  UI_rasFarming_Until = "Melhor antes da data"
+
+  UI_rasFarming_AddRottenFood = "Adicione comida estragada de potes"
+
+  UI_rasFarming_OpenJar = "Pote Aberto",  
+
+  UI_rasFarming_Berry_Ingredient = "Baga x 5",
+  UI_rasFarming_Broccoli_Ingredient = "Brócolis x 5"
+  UI_rasFarming_Tomato_Ingredient = "Tomate x 3"
+  UI_rasFarming_Carrots_Ingredient = "Cenoura x 5" 
+  UI_rasFarming_Potato_Ingredient = "Batata x 3"
+  UI_rasFarming_Eggplant_Ingredient = "Beringela x 3"
+  UI_rasFarming_Leek_Ingredient = "Alho-Poró x 3"
+  UI_rasFarming_RedRaddish_Ingredient = "Rabanete x 10"
+  UI_rasFarming_BellPepper_Ingredient = "Pimentão x 5"
+  UI_rasFarming_Cabbage_Ingredient = "Repolho x 2"
+  UI_rasFarming_Strewberry_Ingredient = "Morango x 5"
+
+}

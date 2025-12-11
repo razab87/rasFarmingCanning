@@ -1,0 +1,507 @@
+module Base 
+{
+
+
+
+/********************************* BASIC CANNING ***********************************/
+
+/** override  vanilla recipes for canning **/
+
+
+
+
+    recipe Make Jar of Broccoli 
+    {
+        EmptyJar,
+        JarLid,
+        RasHiddenBroccoli=5,
+        Water=2,
+
+        Result:RasCannedBroccoli,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.CannedFood,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.Cooking10,
+        Override:true,
+    }
+        
+     
+    recipe Make Jar of Tomatoes
+    {
+        EmptyJar,
+        JarLid,
+        RasHiddenTomato=3,
+        Water=2,
+
+        Result:RasCannedTomato,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.CannedFood,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.Cooking10,
+        Override:true,
+    }
+       
+    
+    
+    recipe Make Jar of Carrots
+    {
+        EmptyJar,
+        JarLid,
+        RasHiddenCarrots=5,
+        Water=2,
+
+        Result:RasCannedCarrots,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.CannedFood,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.Cooking10,
+        Override:true,
+    }
+        
+    
+    
+    recipe Make Jar of Potatoes
+    {
+        EmptyJar,
+        JarLid,
+        RasHiddenPotato=3,
+        Water=2,
+
+        Result:RasCannedPotato,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.CannedFood,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.Cooking10,
+        Override:true,
+    }
+        
+      
+    
+
+    recipe Make Jar of Eggplants
+    {
+        EmptyJar,
+        JarLid,
+        RasHiddenEggplant=3,
+        Water=2,
+
+        Result:RasCannedEggplant,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.CannedFood,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.Cooking10,
+        Override:true,
+    }
+    
+
+    recipe Make Jar of Leeks
+    {
+        EmptyJar,
+        JarLid,
+        RasHiddenLeek=3,
+        Water=2,
+
+        Result:RasCannedLeek,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.CannedFood,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.Cooking10,
+        Override:true,
+    }
+    
+
+
+
+    recipe Make Jar of Red Radishes
+    {
+        EmptyJar,
+        JarLid,
+        RasHiddenRedRadish=10,
+        Water=2,
+
+        Result:RasCannedRedRadish,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.CannedFood,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.Cooking10,
+        Override:true,
+    }
+    
+    
+    
+
+    recipe Make Jar of Bell Peppers
+    {
+        EmptyJar,
+        JarLid,
+        RasHiddenBellPepper=5,
+        Water=2,
+
+        Result:RasCannedBellPepper,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.CannedFood,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.Cooking10,
+        Override:true,
+    }
+             
+
+    recipe Make Jar of Cabbage
+    {
+        EmptyJar,
+        JarLid,
+        RasHiddenCabbage=2,
+        Water=2,
+
+        Result:RasCannedCabbage,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.CannedFood,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.Cooking10,
+        Override:true,
+    }
+       
+    
+    
+/******************************** PICKLING **************************************/   
+
+/** new recipes for making jars of pickled food using vinegar **/ 
+    
+
+
+    recipe Make Jar of Pickled Tomatoes
+    {
+        EmptyJar,
+        JarLid,
+        RasHiddenTomato=3,
+        Vinegar/RiceVinegar;2,
+
+        Result:RasCannedPickledTomato,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.CannedFood,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.Cooking10,
+    }
+    
+
+    recipe Make Jar of Pickled Bell Pepper
+    {
+        EmptyJar,
+        JarLid,
+        RasHiddenBellPepper=5,
+        Vinegar/RiceVinegar;2,
+
+        Result:RasCannedPickledBellPepper,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.CannedFood,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.Cooking10,
+    }
+
+
+
+    recipe Make Jar of Pickled Broccoli
+    {
+        EmptyJar,
+        JarLid,
+        RasHiddenBroccoli=5,
+        Vinegar/RiceVinegar;2,
+
+        Result:RasCannedPickledBroccoli,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.CannedFood,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.Cooking10,
+    }
+    
+
+
+
+
+    recipe Make Jar of Pickled Cabbage
+    {
+        EmptyJar,
+        JarLid,
+        RasHiddenCabbage=2,
+        Vinegar/RiceVinegar;2,
+
+        Result:RasCannedPickledCabbage,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.CannedFood,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.Cooking10,
+    }
+
+
+
+    recipe Make Jar of Pickled Carrots
+    {
+        EmptyJar,
+        JarLid,
+        RasHiddenCarrots=5,
+        Vinegar/RiceVinegar;2,
+
+        Result:RasCannedPickledCarrots,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.CannedFood,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.Cooking10,
+        Override:true,
+    }
+
+
+
+    recipe Make Jar of Pickled Eggplants
+    {
+        EmptyJar,
+        JarLid,
+        RasHiddenEggplant=3,
+        Vinegar/RiceVinegar;2,
+
+        Result:RasCannedPickledEggplant,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.CannedFood,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.Cooking10,
+        Override:true,
+    }
+
+
+
+    recipe Make Jar of Pickled Leeks
+    {
+        EmptyJar,
+        JarLid,
+        RasHiddenLeek=3,
+        Vinegar/RiceVinegar;2,
+
+        Result:RasCannedPickledLeek,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.CannedFood,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.Cooking10,
+    }
+
+
+
+    recipe Make Jar of Pickled Potatoes
+    {
+        EmptyJar,
+        JarLid,
+        RasHiddenPotato=3,
+        Vinegar/RiceVinegar;2,
+
+        Result:RasCannedPickledPotato,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.CannedFood,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.Cooking10,
+    }
+
+
+
+    recipe Make Jar of Pickled Radishes
+    {
+        EmptyJar,
+        JarLid,
+        RasHiddenRedRadish=10,
+        Vinegar/RiceVinegar;2,
+
+        Result:RasCannedPickledRadish,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.CannedFood,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.Cooking10,
+    }
+
+
+
+
+
+
+/****************************** FRUIT JAMS **********************************/   
+
+/** new recipes for making jars of fruit jams **/
+
+
+
+
+    recipe Make Strawberry Jam
+    {
+        EmptyJar,
+        JarLid,
+        RasHiddenStrewberrie=5,
+        [Recipe.GetItemTypes.Sugar];2,
+
+        Result:RasStrawberryJam,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.CannedFood,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.Cooking10,
+    }
+
+
+    recipe Make Berry Jam
+    {
+        EmptyJar,
+        JarLid,  
+        RasHiddenBerry=5,             
+        [Recipe.GetItemTypes.Sugar];2,
+
+        Result:RasDefaultBerryJam,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.CannedFood,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.Cooking10,
+    }
+
+
+
+
+/********** NEW RECIPE FOR OPENING BOX OF JARS: GIVES NOW 9 EMPTY JARS *********/
+
+    recipe Open Box of Jars
+    {
+        BoxOfJars,
+
+        Result:EmptyJar=9,
+        OnCreate:Recipe.OnCreate.OpenBoxOfJars,
+        Sound:PutItemInBag,
+        Time:15.0,
+        Override:true,
+    }
+
+
+
+
+/********* OVERRIDE THE VANILLA RECIPES FOR OPENING A JAR ***************************/
+
+  
+    recipe Open Jar of Tomatoes
+    {
+        CannedTomato,
+        RasFarmingImpossibleItem,
+
+        Result:farming.Tomato=5,
+        Time:30.0,
+        OnCreate:Recipe.OnCreate.OpenCannedFood,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.None,
+        Override:true,
+    }
+
+    recipe Open Jar of Carrots
+    {
+        CannedCarrots,
+        RasFarmingImpossibleItem,
+
+        Result:Carrots=5,
+        Time:30.0,
+        OnCreate:Recipe.OnCreate.OpenCannedFood,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.None,
+        Override:true,
+    }
+
+    recipe Open Jar of Potatoes
+    {
+        CannedPotato,
+        RasFarmingImpossibleItem,
+
+        Result:farming.Potato=5,
+        Time:30.0,
+        OnCreate:Recipe.OnCreate.OpenCannedFood,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.None,
+        Override:true,
+    }
+
+    recipe Open Jar of Eggplants
+    {
+        CannedEggplant,
+        RasFarmingImpossibleItem,
+
+        Result:Eggplant=5,
+        Time:30.0,
+        OnCreate:Recipe.OnCreate.OpenCannedFood,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.None,
+        Override:true,
+    }
+
+    recipe Open Jar of Leeks
+    {
+        CannedLeek,
+        RasFarmingImpossibleItem,
+
+        Result:Leek=5,
+        Time:30.0,
+        OnCreate:Recipe.OnCreate.OpenCannedFood,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.None,
+        Override:true,
+    }
+
+    recipe Open Jar of Red Radishes
+    {
+        CannedRedRadish,
+        RasFarmingImpossibleItem,
+
+        Result:farming.RedRadish=5,
+        Time:30.0,
+        OnCreate:Recipe.OnCreate.OpenCannedFood,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.None,
+        Override:true,
+    }
+
+    recipe Open Jar of Bell Peppers
+    {
+        CannedBellPepper,
+        RasFarmingImpossibleItem,
+
+        Result:BellPepper=5,
+        Time:30.0,
+        OnCreate:Recipe.OnCreate.OpenCannedFood,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.None,
+        Override:true,
+    }
+
+    recipe Open Jar of Cabbage
+    {
+        CannedCabbage,
+        RasFarmingImpossibleItem,
+
+        Result:farming.Cabbage=3,
+        Time:30.0,
+        OnCreate:Recipe.OnCreate.OpenCannedFood,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.None,
+        Override:true,
+    }
+
+    recipe Open Jar of Broccoli
+    {
+        CannedBroccoli,
+        RasFarmingImpossibleItem,
+
+        Result:Broccoli=5,
+        Time:30.0,
+        OnCreate:Recipe.OnCreate.OpenCannedFood,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.None,
+        Override:true,
+    }
+
+
+}
+
+
+
+
+
+
+
+
+

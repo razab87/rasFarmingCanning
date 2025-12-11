@@ -1,0 +1,126 @@
+
+
+ItemName_PTBR = {
+
+    ItemName_Base.RasCannedBellPepper = "Pote de Pimentão", 
+    ItemName_Base.RasCannedBroccoli = "Pote de Brócolis",
+    ItemName_Base.RasCannedCabbage = "Pote de Repolho",
+    ItemName_Base.RasCannedCarrots = "Pote de Cenoura",
+    ItemName_Base.RasCannedEggplant = "Pote de Beringela",
+    ItemName_Base.RasCannedLeek = "Pote de Alho-Poró",
+    ItemName_Base.RasCannedPotato = "Pote de Batata",
+    ItemName_Base.RasCannedRedRadish = "Pote de Rabanete",
+    ItemName_Base.RasCannedTomato = "Pote de Tomate",
+
+    ItemName_Base.RasCannedBellPepperOpen = "Pote Aberto de Pimentão", 
+    ItemName_Base.RasCannedBroccoliOpen = "Pote Aberto de Brócolis",
+    ItemName_Base.RasCannedCabbageOpen = "Pote Aberto de Repolho",
+    ItemName_Base.RasCannedCarrotsOpen = "Pote Aberto de Cenoura",
+    ItemName_Base.RasCannedEggplantOpen = "Pote Aberto de Beringela",
+    ItemName_Base.RasCannedLeekOpen = "Pote Aberto de Alho-Poró",
+    ItemName_Base.RasCannedPotatoOpen = "Pote Aberto de Batata",
+    ItemName_Base.RasCannedRedRadishOpen = "Pote Aberto de Rabanete",
+    ItemName_Base.RasCannedTomatoOpen = "Pote Aberto de Tomate",
+
+
+    ItemName_Base.RasCannedPickledBellPepper = "Pote de Conserva de Pimentão", 
+    ItemName_Base.RasCannedPickledBroccoli = "Pote de Conserva de Brócolis",
+    ItemName_Base.RasCannedPickledCabbage = "Pote de Conserva de Repolho",
+    ItemName_Base.RasCannedPickledCarrots = "Pote de Conserva de Cenoura",
+    ItemName_Base.RasCannedPickledEggplant = "Pote de Conserva de Beringela",
+    ItemName_Base.RasCannedPickledLeek = "Pote de Conserva de Alho-Poró",
+    ItemName_Base.RasCannedPickledPotato = "Pote de Conserva de Batata",
+    ItemName_Base.RasCannedPickledRadish = "Pote de Conserva de Rabanete",
+    ItemName_Base.RasCannedPickledTomato = "Pote de Conserva de Tomate",
+
+    ItemName_Base.RasCannedPickledBellPepperOpen = "Pote Aberto de Conserva de Pimentão", 
+    ItemName_Base.RasCannedPickledBroccoliOpen = "Pote Aberto de Conserva de Brócolis",
+    ItemName_Base.RasCannedPickledCabbageOpen = "Pote Aberto de Conserva de Repolho",
+    ItemName_Base.RasCannedPickledCarrotsOpen = "Pote Aberto de Conserva de Cenoura",
+    ItemName_Base.RasCannedPickledEggplantOpen = "Pote Aberto de Conserva de Beringela",
+    ItemName_Base.RasCannedPickledLeekOpen = "Pote Aberto de Conserva de Alho-Poró",
+    ItemName_Base.RasCannedPickledPotatoOpen = "Pote Aberto de Conserva de Batata",
+    ItemName_Base.RasCannedPickledRadishOpen = "Pote Aberto de Conserva de Rabanete",
+    ItemName_Base.RasCannedPickledTomatoOpen = "Pote Aberto de Conserva de Tomate",
+
+    ItemName_Base.RasStrawberryJam = "Pote de Geleia de Morango",
+    ItemName_Base.RasRedBerryJam = "Pote de Geleia de Amora",
+    ItemName_Base.RasBlueBerryJam = "Pote de Geleia de Mirtilo",
+    ItemName_Base.RasOrangeBerryJam = "Pote de Geleia de Groselha Laranja",
+
+    ItemName_Base.RasStrawberryJamOpen = "Pote Aberto de Geleia de Morango",
+    ItemName_Base.RasRedBerryJamOpen = "Pote Aberto de Geleia de Amora",
+    ItemName_Base.RasBlueBerryJamOpen = "Pote Aberto de Geleia de Mirtilo",
+    ItemName_Base.RasOrangeBerryJamOpen = "Pote Aberto de Geleia de Groselha Laranja",
+
+    ItemName_Base.JamFruit = "Geleia de Frutas",
+    ItemName_Base.RasVanillaFruitJamOpen = "Pote Aberto de Geleia de Frutas",
+    ItemName_Base.RasVanillaMarmaladeOpen = "Pote Aberto de Marmelada",
+    ItemName_Base.RasVanillaMarinaraOpen = "Pote Aberto de Molho Marinara",
+    ItemName_Base.RasVanillaPeanutButterOpen = "Pote Aberto de Manteiga de Amendoim",
+
+
+
+/***** NOMES DE FRUTAS PARA ITENS NA COMPOSTAGEM *****/
+    ItemName_Base.RasBlobJamRed = "Geleia de Frutas",
+    ItemName_Base.RasBlobJamBlue = "Geleia de Frutas",
+    ItemName_Base.RasBlobJamOrange = "Geleia de Frutas",
+    ItemName_Base.RasBlobMarinara = "Molho Marinara",
+    ItemName_Base.RasBlobPeanutButter = "Manteiga de Amendoim",
+
+
+
+/**** NOMES PARA ITENS DE ISCA ******/
+    ItemName_Base.RasBellPepperBait = "Pedaço de Pimentão",
+    ItemName_Base.RasBellPepperBaitRotten = "Pedaço de Pimentão",
+    ItemName_Base.RasBroccoliBait = "Pedaço de Brócolis",
+    ItemName_Base.RasBroccoliBaitRotten = "Pedaço de Brócolis",
+    ItemName_Base.RasCabbageBait = "Pedaço de Repolho",
+    ItemName_Base.RasCabbageBaitRotten = "Pedaço de Repolho",
+    ItemName_Base.RasCarrotsBait = "Pedaço de Cenoura",
+    ItemName_Base.RasCarrotsBaitRotten = "Pedaço de Cenoura",
+    ItemName_Base.RasEggplantBait = "Pedaço de Beringela",
+    ItemName_Base.RasEggplantBaitRotten = "Pedaço de Beringela",
+    ItemName_Base.RasLeeksBait = "Pedaço de Alho-Poró",
+    ItemName_Base.RasLeeksBaitRotten = "Pedaço de Alho-Poró",
+	ItemName_Base.RasPotatoBait = "Pedaço de Batata",
+    ItemName_Base.RasPotatoBaitRotten = "Pedaço de Batata",
+    ItemName_Base.RasRadishBait = "Pedaço de Rabanete",
+    ItemName_Base.RasRadishBaitRotten = "Pedaço de Rabanete",
+    ItemName_Base.RasTomatoBait = "Pedaço de Tomate",
+    ItemName_Base.RasTomatoBaitRotten = "Pedaço de Tomate",
+
+    ItemName_Base.RasPickledBellPepperBait = "Pedaço de Pimentão em Conserva",
+    ItemName_Base.RasPickledBellPepperBaitRotten = "Pedaço de Pimentão em Conserva",
+    ItemName_Base.RasPickledBroccoliBait = "Pedaço de Brócolis em Conserva",
+    ItemName_Base.RasPickledBroccoliBaitRotten = "Pedaço de Brócolis em Conserva",
+    ItemName_Base.RasPickledCabbageBait = "Pedaço de Repolho em Conserva",
+    ItemName_Base.RasPickledCabbageBaitRotten = "Pedaço de Repolho em Conserva",
+    ItemName_Base.RasPickledCarrotsBait = "Pedaço de Cenoura em Conserva",
+    ItemName_Base.RasPickledCarrotsBaitRotten = "Pedaço de Cenoura em Conserva",
+    ItemName_Base.RasPickledEggplantBait = "Pedaço de Beringela em Conserva",
+    ItemName_Base.RasPickledEggplantBaitRotten = "Pedaço de Beringela em Conserva",
+    ItemName_Base.RasPickledLeeksBait = "Pedaço de Alho-Poró em Conserva",
+    ItemName_Base.RasPickledLeeksBaitRotten = "Pedaço de Alho-Poró em Conserva",
+	ItemName_Base.RasPickledPotatoBait = "Pedaço de Batata em Conserva",
+    ItemName_Base.RasPickledPotatoBaitRotten = "Pedaço de Batata em Conserva",
+    ItemName_Base.RasPickledRadishBait = "Pedaço de Rabanete em Conserva",
+    ItemName_Base.RasPickledRadishBaitRotten = "Pedaço de Rabanete em Conserva",
+    ItemName_Base.RasPickledTomatoBait = "Pedaço de Tomate em Conserva",
+    ItemName_Base.RasPickledTomatoBaitRotten = "Pedaço de Tomate em Conserva",
+
+    ItemName_Base.RasJamBaitRed = "Colherada de Geleia de Frutas",
+    ItemName_Base.RasJamBaitRotten = "Colherada de Geleia de Frutas",
+    ItemName_Base.RasJamBaitBlue = "Colherada de Geleia de Frutas",
+    ItemName_Base.RasJamBaitBlueRotten = "Colherada de Geleia de Frutas",
+    ItemName_Base.RasJamBaitOrange = "Colherada de Geleia de Frutas",
+    ItemName_Base.RasJamBaitOrangeRotten = "Colherada de Geleia de Frutas",
+    ItemName_Base.RasMarinaraBait = "Colherada de Molho Marinara", 
+    ItemName_Base.RasMarinaraBaitRotten = "Colherada de Molho Marinara", 
+    ItemName_Base.RasPeanutButterBait = "Colherada de Manteiga de Amendoim", 
+    ItemName_Base.RasPeanutButterBaitRotten = "Colherada de Manteiga de Amendoim",
+
+}
+
+
+
